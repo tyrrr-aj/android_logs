@@ -1,0 +1,1712 @@
+--------- beginning of /dev/log/main
+D/dalvikvm( 1159): GC_CONCURRENT freed 346K, 16% free 3943K/4656K, paused 4ms+3ms, total 232ms
+E/logwrapper( 1567): Usage: logwrapper [-a] [-d] [-k] BINARY [ARGS ...]
+E/logwrapper( 1567): 
+E/logwrapper( 1567): Forks and executes BINARY ARGS, redirecting stdout and stderr to
+E/logwrapper( 1567): the Android logging system. Tag is set to BINARY, priority is
+E/logwrapper( 1567): always LOG_INFO.
+E/logwrapper( 1567): 
+E/logwrapper( 1567): -a: Causes logwrapper to do abbreviated logging.
+E/logwrapper( 1567):     This logs up to the first 4K and last 4K of the command
+E/logwrapper( 1567):     being run, and logs the output when the command exits
+E/logwrapper( 1567): -d: Causes logwrapper to SIGSEGV when BINARY terminates
+E/logwrapper( 1567):     fault address is set to the status of wait()
+E/logwrapper( 1567): -k: Causes logwrapper to log to the kernel log instead of
+E/logwrapper( 1567):     the Android system log
+--------- beginning of /dev/log/system
+W/SocketClient(   54): write error (Broken pipe)
+D/hc_a    ( 1159): timer
+D/1       ( 1159): onStart
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): java.net.ConnectException: failed to connect to /116.62.181.149 (port 8088): connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1159): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1159): 	at org.cocos2dx.cpp.VideoPlayer.sendGet(VideoPlayer.java:457)
+W/System.err( 1159): 	at org.cocos2dx.cpp.VideoPlayer$11.run(VideoPlayer.java:330)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1159): 	at libcore.io.Posix.connect(Native Method)
+W/System.err( 1159): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	... 13 more
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/AndroidRuntime( 1572): 
+D/AndroidRuntime( 1572): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1572): CheckJNI is ON
+D/dalvikvm( 1159): GC_CONCURRENT freed 371K, 15% free 3972K/4656K, paused 59ms+44ms, total 208ms
+V/SmsReceiverService( 1028): onStart: #3 mResultCode: -1 = Activity.RESULT_OK
+I/mediaserver( 1574): ServiceManager: 0xb8cf2460
+I/AudioFlinger( 1574): Using default 3000 mSec as standby time.
+E/ServiceManager(   51): add_service('media.audio_flinger',0x4c) uid=10052 - PERMISSION DENIED
+E/ServiceManager(   51): add_service('media.player',0x4c) uid=10052 - PERMISSION DENIED
+I/CameraService( 1574): CameraService started (pid=1574)
+D/EmulatedCamera_QemuClient( 1574): Emulated camera list: 
+D/EmulatedCamera_FakeCamera( 1574): Initialize: Fake camera is facing back
+V/EmulatedCamera_Device( 1574): initializeWhiteBalanceModes with auto, 1.000000, 1.000000
+V/EmulatedCamera_Device( 1574): initializeWhiteBalanceModes with incandescent, 1.380000, 0.600000
+V/EmulatedCamera_Device( 1574): initializeWhiteBalanceModes with daylight, 1.090000, 0.920000
+V/EmulatedCamera_Device( 1574): initializeWhiteBalanceModes with twilight, 0.920000, 1.220000
+V/EmulatedCamera_Device( 1574): setWhiteBalanceMode with white balance auto
+E/EmulatedCamera_HotplugThread( 1574): createFileIfNotExists: Could not create file '/data/misc/media/emulator.camera.hotplug.0', error: 'Permission denied' (13)
+I/CameraService( 1574): Loaded "Emulated Camera Module" camera module
+E/ServiceManager(   51): add_service('media.camera',0x4c) uid=10052 - PERMISSION DENIED
+I/AudioPolicyManagerBase( 1574): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+W/ServiceManager(   60): Permission failure: android.permission.MODIFY_AUDIO_SETTINGS from uid=10052 pid=1574
+E/        (   60): Request requires android.permission.MODIFY_AUDIO_SETTINGS
+W/AudioPolicyManagerBase( 1574): could not open HW module primary
+W/ServiceManager(   60): Permission failure: android.permission.MODIFY_AUDIO_SETTINGS from uid=10052 pid=1574
+E/        (   60): Request requires android.permission.MODIFY_AUDIO_SETTINGS
+W/AudioPolicyManagerBase( 1574): could not open HW module r_submix
+E/AudioPolicyManagerBase( 1574): Not output found for attached devices 00000002
+E/AudioPolicyManagerBase( 1574): Failed to open primary output
+E/AudioPolicyManagerBase( 1574): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+E/AudioPolicyManagerBase( 1574): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+E/AudioPolicyService( 1574): couldn't init_check the audio policy (No such device)
+E/ServiceManager(   51): add_service('media.audio_policy',0x4c) uid=10052 - PERMISSION DENIED
+I/ActivityManager(  372): Waited long enough for: ServiceRecord{b363b930 u0 com.android.mms/.transaction.SmsReceiverService}
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm(  372): GC_CONCURRENT freed 1421K, 53% free 5895K/12500K, paused 6ms+46ms, total 372ms
+D/AndroidRuntime( 1583): 
+D/AndroidRuntime( 1583): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1583): CheckJNI is ON
+D/dalvikvm( 1541): GC_FOR_ALLOC freed 45K, 5% free 2723K/2840K, paused 6025ms, total 6025ms
+I/dalvikvm-heap( 1541): Grow heap (frag case) to 3.347MB for 651521-byte allocation
+D/dalvikvm( 1541): GC_FOR_ALLOC freed 0K, 4% free 3360K/3480K, paused 1644ms, total 1644ms
+I/Netd    ( 1587): Netd 1.0 starting
+E/Netd    ( 1587): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra: Permission denied
+E/Netd    ( 1587): Failed to open /proc/sys/net/ipv6/conf/eth0/accept_ra: Permission denied
+E/InterfaceController( 1587): Can't write to /proc/sys/net/ipv6/conf/eth0/accept_ra: Permission denied
+E/Netd    ( 1587): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra: Permission denied
+E/InterfaceController( 1587): Can't write to /proc/sys/net/ipv6/conf/lo/accept_ra: Permission denied
+E/Netd    ( 1587): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra: Permission denied
+E/InterfaceController( 1587): Can't write to /proc/sys/net/ipv6/conf/sit0/accept_ra: Permission denied
+W/InterfaceController( 1587): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/iptables( 1587): iptables v1.4.11.1: can't initialize iptables table `filter': Permission denied (you must be root)
+I/iptables( 1587): Perhaps iptables or your kernel needs to be upgraded.
+I/iptables( 1587): iptables terminated by exit(3)
+E/Netd    ( 1587): exec() res=0, status=768 for /system/bin/iptables -t filter -N bw_INPUT 
+I/ip6tables( 1587): ip6tables v1.4.11.1: can't initialize ip6tables table `filter': Permission denied (you must be root)
+I/ip6tables( 1587): Perhaps ip6tables or your kernel needs to be upgraded.
+I/ip6tables( 1587): ip6tables terminated by exit(3)
+E/Netd    ( 1587): exec() res=0, status=768 for /system/bin/ip6tables -t filter -N bw_INPUT 
+I/iptables( 1587): iptables v1.4.11.1: can't initialize iptables table `filter': Permission denied (you must be root)
+I/iptables( 1587): Perhaps iptables or your kernel needs to be upgraded.
+I/iptables( 1587): iptables terminated by exit(3)
+E/Netd    ( 1587): exec() res=0, status=768 for /system/bin/iptables -t filter -A INPUT -j bw_INPUT 
+I/ip6tables( 1587): ip6tables v1.4.11.1: can't initialize ip6tables table `filter': Permission denied (you must be root)
+I/ip6tables( 1587): Perhaps ip6tables or your kernel needs to be upgraded.
+I/ip6tables( 1587): ip6tables terminated by exit(3)
+E/Netd    ( 1587): exec() res=0, status=768 for /system/bin/ip6tables -t filter -A INPUT -j bw_INPUT 
+V/SmsReceiverService( 1028): onStart: #4 mResultCode: -1 = Activity.RESULT_OK
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+D/dalvikvm( 1159): GC_CONCURRENT freed 353K, 14% free 4013K/4656K, paused 127ms+4ms, total 314ms
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/AndroidRuntime( 1608): 
+D/AndroidRuntime( 1608): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+D/AndroidRuntime( 1608): CheckJNI is ON
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+E/pppd    ( 1611): unrecognized option '-c'
+I/qemu-props( 1612): connected to 'boot-properties' qemud service.
+I/qemu-props( 1612): receiving..
+I/qemu-props( 1612): received: dalvik.vm.execution-mode=int:portable
+I/qemu-props( 1612): receiving..
+I/qemu-props( 1612): received: dalvik.vm.heapsize=48m
+I/qemu-props( 1612): receiving..
+I/qemu-props( 1612): received: qemu.sf.lcd_density=160
+I/qemu-props( 1612): receiving..
+I/qemu-props( 1612): received: qemu.hw.mainkeys=1
+I/qemu-props( 1612): receiving..
+I/qemu-props( 1612): received: qemu.sf.fake_camera=back
+I/qemu-props( 1612): receiving..
+I/qemu-props( 1612): exiting (5 properties set).
+W/System.err( 1159): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1159): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1159): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+I/racoon  ( 1614): ipsec-tools 0.7.3 (http://ipsec-tools.sf.net)
+E/racoon  ( 1614): Cannot resolve address: id
+I/racoon  ( 1614): Bye
+W/System.err( 1159): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1159): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1159): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_CONCURRENT freed 466K, 15% free 3970K/4656K, paused 6ms+52ms, total 152ms
+D/AndroidRuntime( 1619): 
+D/AndroidRuntime( 1619): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1619): CheckJNI is ON
+D/dalvikvm( 1619): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1619): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1619): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1619): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1619): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+V/SmsReceiverService( 1028): onStart: #5 mResultCode: -1 = Activity.RESULT_OK
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+D/dalvikvm(  601): GC_CONCURRENT freed 322K, 13% free 3395K/3864K, paused 24ms+3ms, total 206ms
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+D/SensorService( 1638): nuSensorService starting...
+I/SensorService( 1638): Goldfish 3-axis Accelerometer
+I/SensorService( 1638): Goldfish 3-axis Magnetic field sensor
+I/SensorService( 1638): Goldfish Orientation sensor
+I/SensorService( 1638): Goldfish Temperature sensor
+I/SensorService( 1638): Goldfish Proximity sensor
+D/SensorService( 1638): Max socket buffer size 131071
+D/SensorService( 1638): nuSensorService thread starting...
+E/ServiceManager(   51): add_service('sensorservice',0x4c) uid=10052 - PERMISSION DENIED
+V/SmsReceiverService( 1028): onStart: #6 mResultCode: -1 = Activity.RESULT_OK
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_CONCURRENT freed 351K, 13% free 4066K/4656K, paused 162ms+109ms, total 570ms
+D/dalvikvm(  372): GC_CONCURRENT freed 714K, 53% free 5888K/12500K, paused 6ms+36ms, total 298ms
+V/SmsReceiverService( 1028): onStart: #7 mResultCode: -1 = Activity.RESULT_OK
+E/ServiceManager( 1644): cannot become context manager (Device or resource busy)
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+V/SmsReceiverService( 1028): onStart: #8 mResultCode: -1 = Activity.RESULT_OK
+D/AndroidRuntime( 1646): 
+D/AndroidRuntime( 1646): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1646): CheckJNI is ON
+D/dalvikvm( 1646): Trying to load lib libjavacore.so 0x0
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+D/dalvikvm( 1159): GC_CONCURRENT freed 442K, 13% free 4053K/4656K, paused 5ms+117ms, total 312ms
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+V/SmsReceiverService( 1028): onStart: #9 mResultCode: -1 = Activity.RESULT_OK
+D/AndroidRuntime( 1648): 
+D/AndroidRuntime( 1648): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1648): CheckJNI is ON
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "sms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/System.out( 1159): HuafeiInitObserver_________________start
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "smsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mms"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+I/PackageManager(  372):   Action: "android.intent.action.SENDTO"
+I/PackageManager(  372):   Category: "android.intent.category.DEFAULT"
+I/PackageManager(  372):   Scheme: "mmsto"
+I/PackageManager(  372): Adding preferred activity ComponentInfo{com.android.mms/com.android.mms.ui.ComposeMessageActivity} for user 0 :
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/AndroidRuntime( 1652): 
+D/AndroidRuntime( 1652): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+V/SmsReceiverService( 1028): onStart: #10 mResultCode: -1 = Activity.RESULT_OK
+E/uim-sysfs( 1654): uim: Inside main
+E/uim-sysfs( 1654): uim: Invalid arguements
+E/uim-sysfs( 1654): uim: Usage: uim <bd address>
+E/InSmsReceiver( 1159): start  jar InSmsReceiver 
+I/Vold    ( 1657): Vold 2.1 (the revenge) firing up
+E/Vold    ( 1657): failed to open /fstab.goldfish
+E/Vold    ( 1657): Error reading configuration (Permission denied)... continuing anyways
+E/Vold    ( 1657): Unable to set uevent socket SO_RCVBUFFORCE option: Operation not permitted
+E/Vold    ( 1657): Unable to start NetlinkManager (Operation not permitted)
+I/System.out( 1159): HuafeiInitObserver_________________start
+W/System.err( 1159): org.json.JSONException: No value for result
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getString(JSONObject.java:515)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_CONCURRENT freed 423K, 14% free 4048K/4656K, paused 5ms+4ms, total 143ms
+D/AndroidRuntime( 1658): 
+D/AndroidRuntime( 1658): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1658): CheckJNI is ON
+D/dalvikvm( 1658): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1658): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1658): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1658): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1658): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(  372): GC_CONCURRENT freed 689K, 53% free 5888K/12500K, paused 94ms+35ms, total 301ms
+W/System.err( 1159): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1159): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1159): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1159): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1159): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1159): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/hc_a    ( 1159): timer
+D/1       ( 1159): onStart
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+W/System.err( 1159): java.net.SocketTimeoutException: failed to connect to ad.qipagame.cn/121.41.24.238 (port 8086) after 30000ms
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1159): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:197)
+W/System.err( 1159): 	at com.q.p.Dp.a(SourceFile:212)
+W/System.err( 1159): 	at com.q.p.e.run(SourceFile:515)
+W/dalvikvm( 1028): threadid=2: spin on suspend #1 threadid=15 (pcf=0)
+D/dalvikvm( 1028): Temporarily moving tid 1538 to fg (was 0)
+D/dalvikvm( 1028): Temporarily raised priority on tid 1538 (10 -> 0)
+W/dalvikvm( 1028): threadid=2: spin on suspend resolved in 2463 msec
+D/dalvikvm( 1028): Restored policy of 1538 to 0
+D/dalvikvm( 1028): Restored priority on 1538 to 10
+D/dalvikvm( 1028): GC_CONCURRENT freed 226K, 9% free 3076K/3376K, paused 4ms+2468ms, total 4957ms
+E/StrictMode( 1028): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1028): java.lang.Throwable: Explicit termination method 'release' not called
+E/StrictMode( 1028): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1028): 	at android.drm.DrmManagerClient.<init>(DrmManagerClient.java:258)
+E/StrictMode( 1028): 	at com.google.android.mms.pdu.PduPersister.<init>(PduPersister.java:288)
+E/StrictMode( 1028): 	at com.google.android.mms.pdu.PduPersister.getPduPersister(PduPersister.java:296)
+E/StrictMode( 1028): 	at com.android.mms.transaction.TransactionService.onNewIntent(TransactionService.java:224)
+E/StrictMode( 1028): 	at com.android.mms.transaction.TransactionService$ServiceHandler.handleMessage(TransactionService.java:621)
+E/StrictMode( 1028): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/StrictMode( 1028): 	at android.os.Looper.loop(Looper.java:136)
+E/StrictMode( 1028): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/System.err( 1541): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 291K, 15% free 3977K/4656K, paused 41ms, total 43ms
+I/dalvikvm-heap( 1159): Grow heap (frag case) to 3.966MB for 16400-byte allocation
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 1K, 15% free 3992K/4676K, paused 125ms, total 125ms
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.a(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.chjieservice.onCreate(Unknown Source)
+W/System.err( 1541): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2558)
+W/System.err( 1541): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+W/System.err( 1541): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+W/System.err( 1541): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1541): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1541): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1541): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1541): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1541): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1541): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1541): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1541): Caused by: java.io.IOException: Permission denied
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1541): 	... 17 more
+W/System.err( 1541): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.a(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.chjieservice.onCreate(Unknown Source)
+W/System.err( 1541): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2558)
+W/System.err( 1541): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+W/System.err( 1541): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+W/System.err( 1541): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1541): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1541): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1541): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1541): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1541): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1541): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1541): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1541): Caused by: java.io.IOException: Permission denied
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1541): 	... 17 more
+W/System.err( 1541): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+D/dalvikvm( 1541): GC_FOR_ALLOC freed 1031K, 28% free 2842K/3944K, paused 1856ms, total 1856ms
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.a(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.chjieservice.onCreate(Unknown Source)
+W/System.err( 1541): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2558)
+W/System.err( 1541): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+W/System.err( 1541): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+W/System.err( 1541): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1541): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1541): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1541): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1541): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1541): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1541): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1541): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1541): Caused by: java.io.IOException: Permission denied
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1541): 	... 17 more
+W/System.err( 1541): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1541): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1541): Caused by: java.io.IOException: Permission denied
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1541): 	... 7 more
+W/System.err( 1541): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1541): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1541): Caused by: java.io.IOException: Permission denied
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1541): 	... 7 more
+W/System.err( 1541): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1541): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1541): Caused by: java.io.IOException: Permission denied
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1541): 	... 7 more
+W/System.err( 1541): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1541): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1541): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1541): Caused by: java.io.IOException: Permission denied
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1541): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1541): 	... 7 more
+W/System.err( 1159): java.net.SocketTimeoutException: failed to connect to ad.qipagame.cn/121.41.24.238 (port 8086) after 30000ms
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1159): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:197)
+W/System.err( 1159): 	at com.q.p.Dp.a(SourceFile:212)
+W/System.err( 1159): 	at com.q.p.e.run(SourceFile:515)
+W/System.err( 1159): java.net.UnknownHostException: Unable to resolve host "ad.yhksyueb.com": No address associated with hostname
+W/System.err( 1159): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+W/System.err( 1159): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 1159): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 1159): 	at com.android.okhttp.internal.Dns$1.getAllByName(Dns.java:28)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:216)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:122)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:292)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:296)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:503)
+W/System.err( 1159): 	at com.q.p.Dp.a(SourceFile:582)
+W/System.err( 1159): 	at com.q.p.e.run(SourceFile:532)
+W/System.err( 1159): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1159): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1159): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 1159): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1541): java.net.UnknownHostException: Unable to resolve host "tt.lwsja.com": No address associated with hostname
+W/System.err( 1541): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+W/System.err( 1541): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 1541): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 1541): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1541): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1541): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1541): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1541): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1541): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1541): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1541): 	at com.emag.yapz.ph.b.e.a(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.l.run(Unknown Source)
+W/System.err( 1541): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1541): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1541): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 1541): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+W/System.err( 1541): 	... 11 more
+W/System.err( 1159): org.apache.http.conn.ConnectTimeoutException: Connect to /139.129.132.111:8001 timed out
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.sdky.jzp.cd.a(SourceFile:157)
+W/System.err( 1159): 	at com.sdky.jzp.cd$c.doInBackground(SourceFile:1)
+W/System.err( 1159): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1541): java.net.UnknownHostException: Unable to resolve host "tt.lwsja.com": No address associated with hostname
+W/System.err( 1541): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+W/System.err( 1541): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 1541): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 1541): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1541): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1541): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1541): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1541): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1541): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1541): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1541): 	at com.emag.yapz.ph.b.e.a(Unknown Source)
+W/System.err( 1541): 	at com.emag.yapz.ph.game.syd.j.run(Unknown Source)
+W/System.err( 1541): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+W/System.err( 1541): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1541): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1541): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 1541): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+W/System.err( 1541): 	... 12 more
+D/hc_a    ( 1159): timer
+D/1       ( 1159): onStart
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+D/dalvikvm( 1159): GC_CONCURRENT freed 415K, 16% free 3971K/4676K, paused 15ms+3ms, total 108ms
+D/dalvikvm( 1541): GC_FOR_ALLOC freed 460K, 27% free 2893K/3944K, paused 1232ms, total 1232ms
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+D/dalvikvm(  601): GC_CONCURRENT freed 377K, 12% free 3404K/3864K, paused 16ms+24ms, total 82ms
+W/System.err( 1159): org.apache.http.conn.ConnectTimeoutException: Connect to /139.129.132.111:8001 timed out
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.sdky.jzp.cd.a(SourceFile:157)
+W/System.err( 1159): 	at com.sdky.jzp.cd$c.doInBackground(SourceFile:1)
+W/System.err( 1159): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): DexOpt: --- BEGIN 'p6.apk' (bootstrap=0) ---
+D/dalvikvm( 1710): DexOpt: load 65ms, verify+opt 204ms, 340668 bytes
+D/dalvikvm( 1159): DexOpt: --- END 'p6.apk' (success) ---
+D/dalvikvm( 1159): DEX prep '/data/data/com.abu.lcwmxx/app_px/p6.apk': unzip in 6ms, rewrite 536ms
+D/dalvikvm( 1159): DexOpt: --- BEGIN 'p6.apk' (bootstrap=0) ---
+W/System.err( 1159): java.io.FileNotFoundException: /storage/sdcard/.hand/lastacc: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 1159): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 1159): 	at rp.b.a.h.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.h.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.j.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 1159): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 1159): 	... 8 more
+D/dalvikvm( 1159): GC_CONCURRENT freed 441K, 15% free 3995K/4676K, paused 6ms+3ms, total 241ms
+D/dalvikvm( 1712): DexOpt: load 76ms, verify+opt 295ms, 340668 bytes
+D/dalvikvm( 1159): DexOpt: --- END 'p6.apk' (success) ---
+D/dalvikvm( 1159): DEX prep '/data/data/com.abu.lcwmxx/app_px/p6.apk': unzip in 6ms, rewrite 615ms
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+W/System.err( 1159): android.content.pm.PackageManager$NameNotFoundException: com.qihoo.permmgr
+W/System.err( 1159): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:82)
+W/System.err( 1159): 	at rp.b.a.c.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.c.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)java.io.FileNotFoundException: /storage/sdcard/.hand/lastacc: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 1159): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 1159): 	at rp.b.a.h.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.h.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.j.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 1159): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 1159): 	... 8 more
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 361K, 15% free 3997K/4676K, paused 103ms, total 104ms
+W/System.err( 1159): android.content.pm.PackageManager$NameNotFoundException: com.qihoo.permmgr
+W/System.err( 1159): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:82)
+W/System.err( 1159): 	at rp.b.a.c.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.c.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 63K, 14% free 4027K/4676K, paused 58ms, total 59ms
+I/System.out( 1159): getaddress:
+I/System.out( 1159): getaddress:
+W/System.err( 1159): java.net.SocketTimeoutException
+W/System.err( 1159): 	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+W/System.err( 1159): 	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+W/System.err( 1159): 	at java.io.InputStream.read(InputStream.java:162)
+W/System.err( 1159): 	at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+W/System.err( 1159): 	at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+W/System.err( 1159): 	at com.android.okhttp.internal.Util.readAsciiLine(Util.java:316)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.RawHeaders.fromBytes(RawHeaders.java:308)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpTransport.readResponseHeaders(HttpTransport.java:135)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:644)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:347)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:296)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:179)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.n.c(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): java.net.SocketTimeoutException
+W/System.err( 1159): 	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+W/System.err( 1159): 	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+W/System.err( 1159): 	at java.io.InputStream.read(InputStream.java:162)
+W/System.err( 1159): 	at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+W/System.err( 1159): 	at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+W/System.err( 1159): 	at com.android.okhttp.internal.Util.readAsciiLine(Util.java:316)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.RawHeaders.fromBytes(RawHeaders.java:308)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpTransport.readResponseHeaders(HttpTransport.java:135)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:644)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:347)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:296)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:179)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.n.c(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/Bundle  ( 1159): Key UMENG_CHANNEL expected String but value was a java.lang.Integer.  The default value <null> was returned.
+W/Bundle  ( 1159): Attempt to cast generated internal exception:
+W/Bundle  ( 1159): java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+W/Bundle  ( 1159): 	at android.os.Bundle.getString(Bundle.java:1121)
+W/Bundle  ( 1159): 	at rp.b.a.g.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.c(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.b(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.n.d(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/Bundle  ( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/Bundle  ( 1159): Key UMENG_CHANNEL expected String but value was a java.lang.Integer.  The default value <null> was returned.
+W/Bundle  ( 1159): Attempt to cast generated internal exception:
+W/Bundle  ( 1159): java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+W/Bundle  ( 1159): 	at android.os.Bundle.getString(Bundle.java:1121)
+W/Bundle  ( 1159): 	at rp.b.a.g.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.c(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.b(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.n.d(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/Bundle  ( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_CONCURRENT freed 400K, 15% free 4011K/4672K, paused 5ms+3ms, total 60ms
+D/hc_a    ( 1159): timer
+D/1       ( 1159): onStart
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 120K, 14% free 4007K/4656K, paused 114ms, total 116ms
+I/dalvikvm-heap( 1159): Grow heap (frag case) to 3.996MB for 16400-byte allocation
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 1K, 14% free 4021K/4676K, paused 55ms, total 55ms
+W/System.err( 1159): org.apache.http.conn.ConnectTimeoutException: Connect to /139.129.132.111:8001 timed out
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.sdky.jzp.cd.a(SourceFile:157)
+W/System.err( 1159): 	at com.sdky.jzp.cd$c.doInBackground(SourceFile:1)
+W/System.err( 1159): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 113K, 15% free 4000K/4676K, paused 42ms, total 42ms
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+W/dalvikvm( 1028): threadid=2: spin on suspend #1 threadid=15 (pcf=0)
+D/dalvikvm( 1028): Temporarily moving tid 1538 to fg (was 0)
+D/dalvikvm( 1028): Temporarily raised priority on tid 1538 (10 -> 0)
+W/dalvikvm( 1028): threadid=2: spin on suspend resolved in 1609 msec
+D/dalvikvm( 1028): Restored policy of 1538 to 0
+D/dalvikvm( 1028): Restored priority on 1538 to 10
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+D/dalvikvm( 1028): GC_CONCURRENT freed 252K, 10% free 3239K/3564K, paused 1613ms+2ms, total 4092ms
+D/dalvikvm( 1159): GC_FOR_ALLOC freed 238K, 15% free 3996K/4676K, paused 103ms, total 104ms
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.a.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 11 more
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.a.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 11 more
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [/system/bin/.nbwayxwzt] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: No such file or directory
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 10 more
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [/system/bin/.nbwayxwzt] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: No such file or directory
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 10 more
+W/System.err( 1159): java.io.FileNotFoundException: /storage/sdcard/.hand/lastacc: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 1159): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 1159): 	at rp.b.a.h.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.h.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.j.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 1159): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 1159): 	... 8 more
+W/System.err( 1159): java.io.FileNotFoundException: /storage/sdcard/.hand/lastacc: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/System.err( 1159): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/System.err( 1159): 	at rp.b.a.h.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.h.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.j.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/System.err( 1159): 	at libcore.io.Posix.open(Native Method)
+W/System.err( 1159): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/System.err( 1159): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/System.err( 1159): 	... 8 more
+D/dalvikvm( 1159): GC_CONCURRENT freed 390K, 15% free 4005K/4676K, paused 23ms+44ms, total 130ms
+I/System.out( 1159): getaddress:
+I/System.out( 1159): getaddress:
+W/System.err( 1159): java.net.SocketTimeoutException
+W/System.err( 1159): 	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+W/System.err( 1159): 	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+W/System.err( 1159): 	at java.io.InputStream.read(InputStream.java:162)
+W/System.err( 1159): 	at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+W/System.err( 1159): 	at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+W/System.err( 1159): 	at com.android.okhttp.internal.Util.readAsciiLine(Util.java:316)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.RawHeaders.fromBytes(RawHeaders.java:308)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpTransport.readResponseHeaders(HttpTransport.java:135)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:644)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:347)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:296)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:179)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.n.c(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/Bundle  ( 1159): Key UMENG_CHANNEL expected String but value was a java.lang.Integer.  The default value <null> was returned.
+W/Bundle  ( 1159): Attempt to cast generated internal exception:
+W/Bundle  ( 1159): java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+W/Bundle  ( 1159): 	at android.os.Bundle.getString(Bundle.java:1121)
+W/Bundle  ( 1159): 	at rp.b.a.g.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.c(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.b(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.n.d(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/Bundle  ( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): java.net.SocketTimeoutException
+W/System.err( 1159): 	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:491)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:46)
+W/System.err( 1159): 	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:240)
+W/System.err( 1159): 	at java.io.InputStream.read(InputStream.java:162)
+W/System.err( 1159): 	at java.io.BufferedInputStream.fillbuf(BufferedInputStream.java:142)
+W/System.err( 1159): 	at java.io.BufferedInputStream.read(BufferedInputStream.java:227)
+W/System.err( 1159): 	at com.android.okhttp.internal.Util.readAsciiLine(Util.java:316)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.RawHeaders.fromBytes(RawHeaders.java:308)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpTransport.readResponseHeaders(HttpTransport.java:135)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpEngine.readResponse(HttpEngine.java:644)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:347)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:296)
+W/System.err( 1159): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:179)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.n.c(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/Bundle  ( 1159): Key UMENG_CHANNEL expected String but value was a java.lang.Integer.  The default value <null> was returned.
+W/Bundle  ( 1159): Attempt to cast generated internal exception:
+W/Bundle  ( 1159): java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+W/Bundle  ( 1159): 	at android.os.Bundle.getString(Bundle.java:1121)
+W/Bundle  ( 1159): 	at rp.b.a.g.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.c(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.g.b(Unknown Source)
+W/Bundle  ( 1159): 	at rp.b.a.n.d(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.e(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/Bundle  ( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/Bundle  ( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): org.apache.http.conn.ConnectTimeoutException: Connect to /139.129.132.111:8001 timed out
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.sdky.jzp.cd.a(SourceFile:157)
+W/System.err( 1159): 	at com.sdky.jzp.cd$c.doInBackground(SourceFile:1)
+W/System.err( 1159): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/hc_a    ( 1159): timer
+D/1       ( 1159): onStart
+D/dalvikvm( 1159): GC_CONCURRENT freed 389K, 14% free 4006K/4656K, paused 3ms+24ms, total 89ms
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [zniu, -c, id] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.execCommand(SourceFile:26)
+W/System.err( 1159): 	at com.sdky.jzp.SdkPay$1$1.check(SourceFile:14)
+W/System.err( 1159): 	at com.sdky.jzp.bj.handleMessage(SourceFile:30)
+W/System.err( 1159): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1159): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1159): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1159): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1159): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1159): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1159): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 14 more
+W/System.err( 1159): org.json.JSONException: No value for body
+W/System.err( 1159): 	at org.json.JSONObject.get(JSONObject.java:355)
+W/System.err( 1159): 	at org.json.JSONObject.getJSONObject(JSONObject.java:574)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.b.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.a(Unknown Source)
+W/System.err( 1159): 	at com.t.network.httpclient.i.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+W/System.err( 1159): org.apache.http.conn.HttpHostConnectException: Connection to http://www.huangdaobook.com refused
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:183)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.tk.a.a.a.g.a(Unknown Source)
+W/System.err( 1159): 	at com.tk.a.a.a.g.run(Unknown Source)
+W/System.err( 1159): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.net.ConnectException: failed to connect to /127.0.0.1 (port 80) after 20000ms: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:223)
+W/System.err( 1159): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:161)
+W/System.err( 1159): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1159): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1159): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	... 13 more
+W/System.err( 1159): Caused by: libcore.io.ErrnoException: isConnected failed: ECONNREFUSED (Connection refused)
+W/System.err( 1159): 	at libcore.io.IoBridge.isConnected(IoBridge.java:208)
+W/System.err( 1159): 	... 20 more
+D/MmsSmsProvider(  601): getSingleAddressId: insert new canonical_address for xxxxxx, _id=1
+D/MmsSmsProvider(  601): getThreadId: create new thread_id for recipients xxxxxxxx
+D/MmsSmsProvider(  601): insertThread: created new thread_id 1 for recipientIds xxxxxxx
+W/System.err( 1159): org.apache.http.conn.ConnectTimeoutException: Connect to /139.129.132.111:8001 timed out
+W/System.err( 1159): 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+W/System.err( 1159): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1159): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1159): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1159): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1159): 	at com.sdky.jzp.cd.a(SourceFile:157)
+W/System.err( 1159): 	at com.sdky.jzp.cd$c.doInBackground(SourceFile:1)
+W/System.err( 1159): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+W/System.err( 1159): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+W/System.err( 1159): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+W/System.err( 1159): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+D/dalvikvm( 1159): GC_CONCURRENT freed 412K, 15% free 3998K/4656K, paused 5ms+3ms, total 81ms
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.a.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 11 more
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.a.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.a.a.a.b(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: Permission denied
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 11 more
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [/system/bin/.nbwayxwzt] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: No such file or directory
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 10 more
+W/System.err( 1159): java.io.IOException: Error running exec(). Command: [/system/bin/.nbwayxwzt] Working Directory: null Environment: null
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1159): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1159): 	at rp.b.a.p.a(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.c(Unknown Source)
+W/System.err( 1159): 	at rp.b.a.p.b(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.b.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.e.a(Unknown Source)
+W/System.err( 1159): 	at rp.a.a.f.run(Unknown Source)
+W/System.err( 1159): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1159): Caused by: java.io.IOException: No such file or directory
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1159): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1159): 	... 10 more

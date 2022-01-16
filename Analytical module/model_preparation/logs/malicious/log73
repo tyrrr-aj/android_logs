@@ -1,0 +1,196 @@
+--------- beginning of /dev/log/main
+I/MobclickAgent( 1179): Extend current session: ae69e1ecf3bd41963c37f83e46f8ab56
+I/ActivityManager(  358): Displayed com.androidsky.app.tusiji/com.androidfly.app.pet.PetActivity: +1s225ms
+D/AndroidRuntime( 1284): Shutting down VM
+D/dalvikvm( 1284): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+12ms, total 21ms
+W/APP_SDK ( 1179): The target server failed to respond
+E/DatabaseUtils(  620): Writing exception to parcel
+E/DatabaseUtils(  620): java.lang.SecurityException: No permission to write APN settings: Neither user 10052 nor current process has android.permission.WRITE_APN_SETTINGS.
+E/DatabaseUtils(  620): 	at android.app.ContextImpl.enforce(ContextImpl.java:1693)
+E/DatabaseUtils(  620): 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:1722)
+E/DatabaseUtils(  620): 	at com.android.providers.telephony.TelephonyProvider.checkPermission(TelephonyProvider.java:735)
+E/DatabaseUtils(  620): 	at com.android.providers.telephony.TelephonyProvider.query(TelephonyProvider.java:462)
+E/DatabaseUtils(  620): 	at android.content.ContentProvider.query(ContentProvider.java:857)
+E/DatabaseUtils(  620): 	at android.content.ContentProvider$Transport.query(ContentProvider.java:200)
+E/DatabaseUtils(  620): 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:112)
+E/DatabaseUtils(  620): 	at android.os.Binder.execTransact(Binder.java:404)
+E/DatabaseUtils(  620): 	at dalvik.system.NativeStart.run(Native Method)
+I/System.out( 1179): >>>>>>>>>>>>onAdEvent:2
+I/MediaFocusControl(  358):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@b2d4f5c0com.android.music.MediaPlaybackService$3@b2d4e440
+W/System.err( 1179): org.json.JSONException: Value Android of type java.lang.String cannot be converted to JSONObject
+W/System.err( 1179): 	at org.json.JSON.typeMismatch(JSON.java:111)
+W/System.err( 1179): 	at org.json.JSONObject.<init>(JSONObject.java:159)
+W/System.err( 1179): 	at org.json.JSONObject.<init>(JSONObject.java:172)
+W/System.err( 1179): 	at com.qumi.QuMiConnect.a(Unknown Source)
+W/System.err( 1179): 	at com.qumi.QuMiConnect.a(Unknown Source)
+W/System.err( 1179): 	at com.qumi.c.run(Unknown Source)
+W/System.err( 1179): 	at java.lang.Thread.run(Thread.java:841)
+I/qumiAdView( 1179): 获取广告失败
+D/AndroidRuntime( 1320): 
+D/AndroidRuntime( 1320): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1320): CheckJNI is ON
+D/dalvikvm( 1320): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1320): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1320): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1320): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1320): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1320): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1320): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1320): failed to load memtrack module: -2
+D/AndroidRuntime( 1320): Calling main entry com.android.commands.am.Am
+--------- beginning of /dev/log/system
+I/ActivityManager(  358): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.androidsky.app.tusiji/com.androidfly.app.pet.DialogSelecter} from pid 1320
+I/MobclickAgent( 1179): Extend current session: ae69e1ecf3bd41963c37f83e46f8ab56
+V/PhoneStatusBar(  468): setLightsOn(true)
+I/Choreographer( 1179): Skipped 59 frames!  The application may be doing too much work on its main thread.
+I/ActivityManager(  358): Displayed com.androidsky.app.tusiji/com.androidfly.app.pet.DialogSelecter: +697ms
+D/AndroidRuntime( 1320): Shutting down VM
+D/dalvikvm( 1320): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+2ms, total 23ms
+D/AndroidRuntime( 1332): 
+D/AndroidRuntime( 1332): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1332): CheckJNI is ON
+D/dalvikvm( 1332): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1332): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1332): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1332): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1332): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1332): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1332): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1332): failed to load memtrack module: -2
+D/AndroidRuntime( 1332): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  358): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.androidsky.app.tusiji/com.androidfly.app.wallpaper.mylist.CheckApkActivity} from pid 1332
+V/PhoneStatusBar(  468): setLightsOn(true)
+I/MobclickAgent( 1179): Extend current session: ae69e1ecf3bd41963c37f83e46f8ab56
+D/dalvikvm(  358): GC_CONCURRENT freed 519K, 52% free 5860K/11984K, paused 7ms+5ms, total 101ms
+W/System.err( 1179): java.net.ConnectException: failed to connect to xzl.souidc.org/120.31.136.61 (port 8080): connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1179): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1179): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1179): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1179): 	at java.net.URLConnection.getContent(URLConnection.java:190)
+W/System.err( 1179): 	at java.net.URL.getContent(URL.java:455)
+W/System.err( 1179): 	at java.net.ConnectException: failed to connect to xzl.souidc.org/120.31.136.61 (port 8080): connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1179): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1179): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1179): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1179): 	at java.net.URLConnection.getContent(URLConnection.java:190)
+W/System.err( 1179): 	at java.net.URL.getContent(URL.java:455)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.util.ImageOperation.loadImageFromURLSource(ImageOperation.java:105)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.ads.MyAdviewDataAdapter$2.run(MyAdviewDataAdapter.java:65)
+W/System.err( 1179): Caused by: libcore.io.ErrnoException: connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.Posix.connect(Native Method)
+W/System.err( 1179): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+W/System.err( 1179): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1179): 	... 14 more
+W/System.err( 1179): java.net.ConnectException: failed to connect to xzl.souidc.org/120.31.136.61 (port 8080): connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)com.androidfly.app.wallpaper.util.ImageOperation.loadImageFromURLSource(ImageOperation.java:105)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.ads.MyAdviewDataAdapter$2.run(MyAdviewDataAdapter.java:65)
+W/System.err( 1179): Caused by: libcore.io.ErrnoException: connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.Posix.connect(Native Method)
+W/System.err( 1179): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+W/System.err( 1179): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1179): 	... 14 more
+W/System.err( 1179): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1179): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1179): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1179): 	at java.net.URLConnection.getContent(URLConnection.java:190)
+W/System.err( 1179): 	at java.net.URL.getContent(URL.java:455)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.util.ImageOperation.loadImageFromURLSource(ImageOperation.java:105)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.ads.MyAdviewDataAdapter$2.run(MyAdviewDataAdapter.java:65)
+W/System.err( 1179): Caused by: libcore.io.ErrnoException: connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.Posix.connect(Native Method)
+W/System.err( 1179): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+W/System.err( 1179): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1179): 	... 14 more
+D/dalvikvm( 1179): GC_CONCURRENT freed 1682K, 8% free 21566K/23352K, paused 7ms+5ms, total 86ms
+W/System.err( 1179): java.net.ConnectException: failed to connect to xzl.souidc.org/120.31.136.61 (port 8080): connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1179): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1179): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1179): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1179): 	at java.net.URLConnection.getContent(URLConnection.java:190)
+W/System.err( 1179): 	at java.net.URL.getContent(URL.java:455)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.util.ImageOperation.loadImageFromURLSource(ImageOperation.java:105)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.ads.MyAdviewDataAdapter$2.run(MyAdviewDataAdapter.java:65)
+W/System.err( 1179): Caused by: libcore.io.ErrnoException: connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.Posix.connect(Native Method)
+W/System.err( 1179): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+W/System.err( 1179): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1179): 	... 14 more
+W/System.err( 1179): java.net.ConnectException: failed to connect to xzl.souidc.org/120.31.136.61 (port 8080): connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1179): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1179): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1179): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1179): 	at java.net.URLConnection.getContent(URLConnection.java:190)
+W/System.err( 1179): 	at java.net.URL.getContent(URL.java:455)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.util.ImageOperation.loadImageFromURLSource(ImageOperation.java:105)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.ads.MyAdviewDataAdapter$2.run(MyAdviewDataAdapter.java:65)
+W/System.err( 1179): Caused by: libcore.io.ErrnoException: connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.Posix.connect(Native Method)
+W/System.err( 1179): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+W/System.err( 1179): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1179): 	... 14 more
+W/System.err( 1179): java.net.ConnectException: failed to connect to xzl.souidc.org/120.31.136.61 (port 8080): connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:114)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1179): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1179): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1179): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1179): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1179): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1179): 	at java.net.URLConnection.getContent(URLConnection.java:190)
+W/System.err( 1179): 	at java.net.URL.getContent(URL.java:455)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.util.ImageOperation.loadImageFromURLSource(ImageOperation.java:105)
+W/System.err( 1179): 	at com.androidfly.app.wallpaper.ads.MyAdviewDataAdapter$2.run(MyAdviewDataAdapter.java:65)
+W/System.err( 1179): Caused by: libcore.io.ErrnoException: connect failed: ETIMEDOUT (Connection timed out)
+W/System.err( 1179): 	at libcore.io.Posix.connect(Native Method)
+W/System.err( 1179): 	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:85)
+W/System.err( 1179): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:127)
+W/System.err( 1179): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1179): 	... 14 more

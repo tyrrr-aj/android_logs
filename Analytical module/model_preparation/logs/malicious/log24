@@ -1,0 +1,132 @@
+--------- beginning of /dev/log/main
+E/logwrapper(   41): executing /system/bin/e2fsck failed: No such file or directory
+E/logwrapper(   47): executing /system/bin/e2fsck failed: No such file or directory
+I/qemu-props(   53): connected to 'boot-properties' qemud service.
+I/qemu-props(   53): receiving..
+I/qemu-props(   53): received: dalvik.vm.execution-mode=int:portable
+I/qemu-props(   53): receiving..
+I/qemu-props(   53): received: dalvik.vm.heapsize=48m
+I/qemu-props(   53): receiving..
+I/qemu-props(   53): received: qemu.sf.lcd_density=160
+I/qemu-props(   53): receiving..
+I/qemu-props(   53): received: qemu.hw.mainkeys=1
+I/qemu-props(   53): receiving..
+I/qemu-props(   53): received: qemu.sf.fake_camera=back
+I/qemu-props(   53): receiving..
+I/qemu-props(   53): exiting (5 properties set).
+I/installd(   61): installd firing up
+I/DEBUG   (   55): debuggerd: Feb 19 2015 02:21:57
+E/cutils  (   61): Failed to read /data/.layout_version: No such file or directory
+D/installd(   61): Upgrading /data/media for multi-user
+D/installd(   61): Upgrading to shared /data/media/obb
+I/Netd    (   54): Netd 1.0 starting
+--------- beginning of /dev/log/system
+I/Vold    (   52): Vold 2.1 (the revenge) firing up
+D/Vold    (   52): Volume sdcard state changing -1 (Initializing) -> 0 (No-Media)
+W/InterfaceController(   54): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+D/Vold    (   52): Volume sdcard state changing 0 (No-Media) -> 1 (Idle-Unmounted)
+I/SurfaceFlinger(   57): SurfaceFlinger is starting
+I/SurfaceFlinger(   57): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  (   57): Emulator without GPU support detected. Fallback to software renderer.
+D/libEGL  (   57): loaded /system/lib/egl/libGLES_android.so
+D/gralloc_goldfish(   57): Emulator without GPU emulation detected.
+I/gralloc (   57): using (fd=14)
+I/gralloc (   57): id           = 
+I/gralloc (   57): xres         = 480 px
+I/gralloc (   57): yres         = 864 px
+I/gralloc (   57): xres_virtual = 480 px
+I/gralloc (   57): yres_virtual = 1728 px
+I/gralloc (   57): bpp          = 16
+I/gralloc (   57): r            = 11:5
+I/gralloc (   57): g            =  5:6
+I/gralloc (   57): b            =  0:5
+I/gralloc (   57): width        = 74 mm (164.756760 dpi)
+I/gralloc (   57): height       = 133 mm (165.004501 dpi)
+I/gralloc (   57): refresh rate = 241.13 Hz
+E/SurfaceFlinger(   57): hwcomposer module not found
+W/SurfaceFlinger(   57): getting VSYNC period from fb HAL: 4147209
+W/SurfaceFlinger(   57): no suitable EGLConfig found, trying a simpler query
+W/SurfaceFlinger(   57): EGL_SLOW_CONFIG selected!
+I/SurfaceFlinger(   57): EGL informations:
+I/SurfaceFlinger(   57): vendor    : Android
+I/SurfaceFlinger(   57): version   : 1.4 Android META-EGL
+I/SurfaceFlinger(   57): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image_base EGL_KHR_fence_sync EGL_ANDROID_image_native_buffer 
+I/SurfaceFlinger(   57): Client API: OpenGL_ES
+I/SurfaceFlinger(   57): EGLSurface: 5-6-5-0, config=0x0
+I/SurfaceFlinger(   57): OpenGL ES informations:
+I/SurfaceFlinger(   57): vendor    : Android
+I/SurfaceFlinger(   57): renderer  : Android PixelFlinger 1.4
+I/SurfaceFlinger(   57): version   : OpenGL ES-CM 1.0
+I/SurfaceFlinger(   57): extensions: GL_EXT_debug_marker GL_OES_byte_coordinates GL_OES_fixed_point GL_OES_single_precision GL_OES_read_format GL_OES_compressed_paletted_texture GL_OES_draw_texture GL_OES_matrix_get GL_OES_query_matrix GL_OES_EGL_image GL_OES_EGL_sync GL_OES_compressed_ETC1_RGB8_texture GL_ARB_texture_compression GL_ARB_texture_non_power_of_two GL_ANDROID_user_clip_plane GL_ANDROID_vertex_buffer_object GL_ANDROID_generate_mipmap 
+I/SurfaceFlinger(   57): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger(   57): GL_MAX_VIEWPORT_DIMS = 4096
+W/SurfaceFlinger(   57): power module not found
+W/SurfaceFlinger(   57): power module not found
+D/SurfaceFlinger(   57): Screen acquired, type=0 flinger=0xb89b1450
+I/BootAnimation(  109): boot animation disabled
+I/mediaserver(   60): ServiceManager: 0xb7fdb460
+I/AudioFlinger(   60): Using default 3000 mSec as standby time.
+I/CameraService(   60): CameraService started (pid=60)
+D/EmulatedCamera_QemuClient(   60): Emulated camera list: 
+D/EmulatedCamera_FakeCamera(   60): Initialize: Fake camera is facing back
+V/EmulatedCamera_Device(   60): initializeWhiteBalanceModes with auto, 1.000000, 1.000000
+V/EmulatedCamera_Device(   60): initializeWhiteBalanceModes with incandescent, 1.380000, 0.600000
+V/EmulatedCamera_Device(   60): initializeWhiteBalanceModes with daylight, 1.090000, 0.920000
+V/EmulatedCamera_Device(   60): initializeWhiteBalanceModes with twilight, 0.920000, 1.220000
+V/EmulatedCamera_Device(   60): setWhiteBalanceMode with white balance auto
+I/CameraService(   60): Loaded "Emulated Camera Module" camera module
+I/AudioPolicyManagerBase(   60): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+I/AudioFlinger(   60): loadHwModule() Loaded primary audio interface from Generic audio HW HAL (audio) handle 1
+I/AudioFlinger(   60): HAL output buffer size 1024 frames, normal mix buffer size 1024 frames
+I/AudioMixer(   60): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger(   60): Using module 1 has the primary audio interface
+D/AndroidRuntime(   58): 
+D/AndroidRuntime(   58): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+I/AudioFlinger(   60): AudioFlinger's thread 0xb5fa6008 ready to run
+W/AudioFlinger(   60): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   60): Thread AudioOut_2 cannot connect to the power manager service
+W/AudioFlinger(   60): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger(   60): no wake lock to update!
+E/AudioFlinger(   60): int android::load_audio_interface(const char*, audio_hw_device_t**) couldn't load audio hw module audio.r_submix (No such file or directory)
+I/AudioFlinger(   60): loadHwModule() error -2 loading module r_submix 
+W/AudioPolicyManagerBase(   60): could not open HW module r_submix
+I/AudioPolicyService(   60): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+D/AndroidRuntime(   58): CheckJNI is ON
+D/dalvikvm(   58): Trying to load lib libjavacore.so 0x0
+D/dalvikvm(   58): Added shared lib libjavacore.so 0x0
+D/dalvikvm(   58): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm(   58): Added shared lib libnativehelper.so 0x0
+D/dalvikvm(   58): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm(   58): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack(   58): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug(   58): failed to load memtrack module: -2
+I/SamplingProfilerIntegration(   58): Profiling disabled.
+I/Zygote  (   58): Preloading classes...
+D/dalvikvm(   58): GC_EXPLICIT freed 39K, 8% free 520K/564K, paused 16ms+2ms, total 40ms
+D/dalvikvm(   58): GC_EXPLICIT freed 2K, 4% free 594K/616K, paused 1ms+1ms, total 24ms
+D/dalvikvm(   58): WAIT_FOR_CONCURRENT_GC blocked 1ms
+D/dalvikvm(   58): GC_EXPLICIT freed 16K, 3% free 637K/656K, paused 0ms+13ms, total 17ms
+D/dalvikvm(   58): GC_EXPLICIT freed 20K, 4% free 671K/696K, paused 1ms+34ms, total 39ms
+D/dalvikvm(   58): GC_EXPLICIT freed 10K, 3% free 715K/732K, paused 1ms+0ms, total 18ms
+D/dalvikvm(   58): GC_EXPLICIT freed 27K, 5% free 744K/776K, paused 1ms+1ms, total 20ms
+D/dalvikvm(   58): GC_EXPLICIT freed 35K, 5% free 814K/852K, paused 0ms+1ms, total 16ms
+D/dalvikvm(   58): GC_EXPLICIT freed 29K, 4% free 841K/872K, paused 1ms+1ms, total 23ms
+D/TextLayoutCache(   58): Using debug level = 0 - Debug Enabled = 0
+D/dalvikvm(   58): GC_EXPLICIT freed 19K, 3% free 881K/904K, paused 0ms+1ms, total 31ms
+I/dalvikvm(   58): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/MtpDeviceJNI(   58): register_android_mtp_MtpDevice
+I/dalvikvm(   58): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm(   58): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm(   58): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/dalvikvm(   58): GC_EXPLICIT freed 19K, 3% free 917K/940K, paused 16ms+1ms, total 38ms
+W/dalvikvm(   58): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Landroid/media/videoeditor/MediaArtistNativeHelper;
+W/Zygote  (   58): Class not found for preloading: android.media.videoeditor.MediaArtistNativeHelper
+D/dalvikvm(   58): GC_EXPLICIT freed 25K, 3% free 948K/976K, paused 5ms+0ms, total 24ms
+D/dalvikvm(   58): GC_EXPLICIT freed 16K, 2% free 985K/1004K, paused 5ms+1ms, total 38ms
+D/dalvikvm(   58): GC_EXPLICIT freed 27K, 4% free 1012K/1044K, paused 1ms+0ms, total 24ms
+D/dalvikvm(   58): GC_EXPLICIT freed 12K, 2% free 1063K/1080K, paused 1ms+1ms, total 25ms
+E/EmojiFactory_jni(   58): Failed to load libemoji.so: dlopen failed: library "libemoji.so" not found
+D/dalvikvm(   58): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm(   58): GC_EXPLICIT freed 30K, 3% free 1380K/1412K, paused 2ms+1ms, total 41ms
+D/dalvikvm(   58): GC_EXPLICIT freed 35K, 3% free 1404K/1444K, paused 2ms+1ms, total 56ms
+D/dalvikvm(   58): GC_EXPLICIT freed 30K, 3% free 1429K/1464K, paused 5ms+6ms, total 46ms

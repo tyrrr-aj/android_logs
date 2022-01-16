@@ -1,0 +1,992 @@
+--------- beginning of /dev/log/main
+E/StrictMode( 1001): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1001): java.lang.Throwable: Explicit termination method 'release' not called
+E/StrictMode( 1001): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1001): 	at android.drm.DrmManagerClient.<init>(DrmManagerClient.java:258)
+E/StrictMode( 1001): 	at com.google.android.mms.pdu.PduPersister.<init>(PduPersister.java:288)
+E/StrictMode( 1001): 	at com.google.android.mms.pdu.PduPersister.getPduPersister(PduPersister.java:296)
+E/StrictMode( 1001): 	at com.android.mms.transaction.TransactionService.onNewIntent(TransactionService.java:224)
+E/StrictMode( 1001): 	at com.android.mms.transaction.TransactionService$ServiceHandler.handleMessage(TransactionService.java:621)
+E/StrictMode( 1001): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/StrictMode( 1001): 	at android.os.Looper.loop(Looper.java:136)
+E/StrictMode( 1001): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+E/logwrapper( 1504): Usage: logwrapper [-a] [-d] [-k] BINARY [ARGS ...]
+E/logwrapper( 1504): 
+E/logwrapper( 1504): Forks and executes BINARY ARGS, redirecting stdout and stderr to
+E/logwrapper( 1504): the Android logging system. Tag is set to BINARY, priority is
+E/logwrapper( 1504): always LOG_INFO.
+E/logwrapper( 1504): 
+E/logwrapper( 1504): -a: Causes logwrapper to do abbreviated logging.
+E/logwrapper( 1504):     This logs up to the first 4K and last 4K of the command
+E/logwrapper( 1504):     being run, and logs the output when the command exits
+E/logwrapper( 1504): -d: Causes logwrapper to SIGSEGV when BINARY terminates
+E/logwrapper( 1504):     fault address is set to the status of wait()
+E/logwrapper( 1504): -k: Causes logwrapper to log to the kernel log instead of
+E/logwrapper( 1504):     the Android system log
+E/StrictMode( 1001): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+E/StrictMode( 1001): java.lang.Throwable: Explicit termination method 'release' not called
+E/StrictMode( 1001): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+E/StrictMode( 1001): 	at android.drm.DrmManagerClient.<init>(DrmManagerClient.java:258)
+E/StrictMode( 1001): 	at com.google.android.mms.pdu.PduPersister.<init>(PduPersister.java:288)
+E/StrictMode( 1001): 	at com.google.android.mms.pdu.PduPersister.getPduPersister(PduPersister.java:296)
+E/StrictMode( 1001): 	at com.android.mms.transaction.TransactionService.onNewIntent(TransactionService.java:224)
+E/StrictMode( 1001): 	at com.android.mms.transaction.TransactionService$ServiceHandler.handleMessage(TransactionService.java:621)
+E/StrictMode( 1001): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/StrictMode( 1001): 	at android.os.Looper.loop(Looper.java:136)
+E/StrictMode( 1001): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+D/dalvikvm(  337): GC_CONCURRENT freed 1003K, 54% free 5853K/12708K, paused 5ms+36ms, total 240ms
+D/AndroidRuntime( 1509): 
+D/AndroidRuntime( 1509): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1509): CheckJNI is ON
+--------- beginning of /dev/log/system
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/dalvikvm( 1509): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1509): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1509): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1509): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1509): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/AndroidRuntime( 1483): Shutting down VM
+D/dalvikvm( 1483): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 3ms+3ms, total 27ms
+I/mediaserver( 1516): ServiceManager: 0xb74ae460
+I/AudioFlinger( 1516): Using default 3000 mSec as standby time.
+E/ServiceManager(   51): add_service('media.audio_flinger',0x4c) uid=10052 - PERMISSION DENIED
+E/ServiceManager(   51): add_service('media.player',0x4c) uid=10052 - PERMISSION DENIED
+I/CameraService( 1516): CameraService started (pid=1516)
+D/EmulatedCamera_QemuClient( 1516): Emulated camera list: 
+D/EmulatedCamera_FakeCamera( 1516): Initialize: Fake camera is facing back
+V/EmulatedCamera_Device( 1516): initializeWhiteBalanceModes with auto, 1.000000, 1.000000
+V/EmulatedCamera_Device( 1516): initializeWhiteBalanceModes with incandescent, 1.380000, 0.600000
+V/EmulatedCamera_Device( 1516): initializeWhiteBalanceModes with daylight, 1.090000, 0.920000
+V/EmulatedCamera_Device( 1516): initializeWhiteBalanceModes with twilight, 0.920000, 1.220000
+V/EmulatedCamera_Device( 1516): setWhiteBalanceMode with white balance auto
+E/EmulatedCamera_HotplugThread( 1516): createFileIfNotExists: Could not create file '/data/misc/media/emulator.camera.hotplug.0', error: 'Permission denied' (13)
+I/CameraService( 1516): Loaded "Emulated Camera Module" camera module
+E/ServiceManager(   51): add_service('media.camera',0x4c) uid=10052 - PERMISSION DENIED
+I/AudioPolicyManagerBase( 1516): loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+W/ServiceManager(   60): Permission failure: android.permission.MODIFY_AUDIO_SETTINGS from uid=10052 pid=1516
+E/        (   60): Request requires android.permission.MODIFY_AUDIO_SETTINGS
+W/AudioPolicyManagerBase( 1516): could not open HW module primary
+W/ServiceManager(   60): Permission failure: android.permission.MODIFY_AUDIO_SETTINGS from uid=10052 pid=1516
+E/        (   60): Request requires android.permission.MODIFY_AUDIO_SETTINGS
+W/AudioPolicyManagerBase( 1516): could not open HW module r_submix
+E/AudioPolicyManagerBase( 1516): Not output found for attached devices 00000002
+E/AudioPolicyManagerBase( 1516): Failed to open primary output
+E/AudioPolicyManagerBase( 1516): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+E/AudioPolicyManagerBase( 1516): getDeviceForStrategy() speaker device not found for STRATEGY_SONIFICATION
+E/AudioPolicyService( 1516): couldn't init_check the audio policy (No such device)
+E/ServiceManager(   51): add_service('media.audio_policy',0x4c) uid=10052 - PERMISSION DENIED
+D/AndroidRuntime( 1524): 
+D/AndroidRuntime( 1524): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1524): CheckJNI is ON
+D/dalvikvm( 1524): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1524): Added shared lib libjavacore.so 0x0
+D/AndroidRuntime( 1525): 
+D/AndroidRuntime( 1525): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1525): CheckJNI is ON
+D/dalvikvm( 1525): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1525): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1525): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1525): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1525): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1525): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1525): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1525): failed to load memtrack module: -2
+D/AndroidRuntime( 1525): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.yunpan.babyguess.HelpActivity} from pid 1525
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b35d29d8 u0 com.onp.reoayz/com.yunpan.babyguess.GameActivity t4}
+I/Netd    ( 1538): Netd 1.0 starting
+E/Netd    ( 1538): Failed to open /proc/sys/net/ipv6/conf/default/accept_ra: Permission denied
+E/Netd    ( 1538): Failed to open /proc/sys/net/ipv6/conf/eth0/accept_ra: Permission denied
+E/InterfaceController( 1538): Can't write to /proc/sys/net/ipv6/conf/eth0/accept_ra: Permission denied
+E/Netd    ( 1538): Failed to open /proc/sys/net/ipv6/conf/lo/accept_ra: Permission denied
+E/InterfaceController( 1538): Can't write to /proc/sys/net/ipv6/conf/lo/accept_ra: Permission denied
+E/Netd    ( 1538): Failed to open /proc/sys/net/ipv6/conf/sit0/accept_ra: Permission denied
+E/InterfaceController( 1538): Can't write to /proc/sys/net/ipv6/conf/sit0/accept_ra: Permission denied
+W/InterfaceController( 1538): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/iptables( 1538): iptables v1.4.11.1: can't initialize iptables table `filter': Permission denied (you must be root)
+I/iptables( 1538): Perhaps iptables or your kernel needs to be upgraded.
+I/iptables( 1538): iptables terminated by exit(3)
+E/Netd    ( 1538): exec() res=0, status=768 for /system/bin/iptables -t filter -N bw_INPUT 
+I/ip6tables( 1538): ip6tables v1.4.11.1: can't initialize ip6tables table `filter': Permission denied (you must be root)
+I/ip6tables( 1538): Perhaps ip6tables or your kernel needs to be upgraded.
+I/ip6tables( 1538): ip6tables terminated by exit(3)
+E/Netd    ( 1538): exec() res=0, status=768 for /system/bin/ip6tables -t filter -N bw_INPUT 
+I/iptables( 1538): iptables v1.4.11.1: can't initialize iptables table `filter': Permission denied (you must be root)
+I/iptables( 1538): Perhaps iptables or your kernel needs to be upgraded.
+I/iptables( 1538): iptables terminated by exit(3)
+E/Netd    ( 1538): exec() res=0, status=768 for /system/bin/iptables -t filter -A INPUT -j bw_INPUT 
+I/ip6tables( 1538): ip6tables v1.4.11.1: can't initialize ip6tables table `filter': Permission denied (you must be root)
+I/ip6tables( 1538): Perhaps ip6tables or your kernel needs to be upgraded.
+I/ip6tables( 1538): ip6tables terminated by exit(3)
+E/Netd    ( 1538): exec() res=0, status=768 for /system/bin/ip6tables -t filter -A INPUT -j bw_INPUT 
+E/AudioSink(   60): received unknown event type: 1 inside CallbackWrapper !
+D/AndroidRuntime( 1559): 
+D/AndroidRuntime( 1559): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1559): CheckJNI is ON
+D/dalvikvm( 1559): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1559): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1559): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1559): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1559): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1559): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/pppd    ( 1567): unrecognized option '-c'
+I/qemu-props( 1568): connected to 'boot-properties' qemud service.
+I/qemu-props( 1568): receiving..
+I/qemu-props( 1568): received: dalvik.vm.execution-mode=int:portable
+I/qemu-props( 1568): receiving..
+I/qemu-props( 1568): received: dalvik.vm.heapsize=48m
+I/qemu-props( 1568): receiving..
+I/qemu-props( 1568): received: qemu.sf.lcd_density=160
+I/qemu-props( 1568): receiving..
+I/qemu-props( 1568): received: qemu.hw.mainkeys=1
+I/qemu-props( 1568): receiving..
+I/qemu-props( 1568): received: qemu.sf.fake_camera=back
+I/qemu-props( 1568): receiving..
+I/qemu-props( 1568): exiting (5 properties set).
+I/racoon  ( 1570): ipsec-tools 0.7.3 (http://ipsec-tools.sf.net)
+E/racoon  ( 1570): Cannot resolve address: id
+I/racoon  ( 1570): Bye
+D/AndroidRuntime( 1575): 
+D/AndroidRuntime( 1575): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1575): CheckJNI is ON
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/dalvikvm( 1575): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1575): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1575): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1575): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1575): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/AndroidRuntime( 1525): Shutting down VM
+D/dalvikvm( 1525): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+1ms, total 21ms
+D/dalvikvm( 1575): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+W/BroadcastQueue(  337): Timeout of broadcast BroadcastRecord{b367a740 u0 android.provider.Telephony.SMS_RECEIVED} - receiver=android.os.BinderProxy@b2ee4710, started 60001ms ago
+W/BroadcastQueue(  337): Receiver during timeout: BroadcastFilter{b2ee4908 u0 ReceiverList{b2ee48a8 1311 com.onp.reoayz:sev/10052/u0 remote:b2ee4710}}
+I/Process (  337): Sending signal. PID: 1311 SIG: 3
+I/Process (  337): Sending signal. PID: 337 SIG: 3
+I/dalvikvm(  337): threadid=3: reacting to signal 3
+D/AndroidRuntime( 1592): 
+D/AndroidRuntime( 1592): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1592): CheckJNI is ON
+D/dalvikvm( 1592): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1592): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1592): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1592): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1592): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1592): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+D/dalvikvm( 1001): GC_CONCURRENT freed 256K, 10% free 3224K/3548K, paused 6ms+3ms, total 5877ms
+E/memtrack( 1592): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1592): failed to load memtrack module: -2
+D/AndroidRuntime( 1592): Calling main entry com.android.commands.am.Am
+D/SensorService( 1602): nuSensorService starting...
+I/SensorService( 1602): Goldfish 3-axis Accelerometer
+I/SensorService( 1602): Goldfish 3-axis Magnetic field sensor
+I/SensorService( 1602): Goldfish Orientation sensor
+I/SensorService( 1602): Goldfish Temperature sensor
+I/SensorService( 1602): Goldfish Proximity sensor
+D/SensorService( 1602): Max socket buffer size 131071
+E/ServiceManager(   51): add_service('sensorservice',0x4c) uid=10052 - PERMISSION DENIED
+D/SensorService( 1602): nuSensorService thread starting...
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.test.MActivity} from pid 1592
+I/Process (  337): Sending signal. PID: 606 SIG: 3
+I/dalvikvm(  606): threadid=3: reacting to signal 3
+I/dalvikvm(  337): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  337): Sending signal. PID: 453 SIG: 3
+I/dalvikvm(  453): threadid=3: reacting to signal 3
+I/dalvikvm(  453): Wrote stack traces to '/data/anr/traces.txt'
+I/dalvikvm(  606): Wrote stack traces to '/data/anr/traces.txt'
+W/System.err( 1076): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1076): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1076): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1076): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1076): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1076): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1076): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1076): 	at java.lang.Thread.run(Thread.java:841)
+D/hc_a    ( 1076): timer
+W/System.err( 1076): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1076): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1076): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1076): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1076): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1076): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1076): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1076): 	at java.lang.Thread.run(Thread.java:841)
+E/ServiceManager( 1610): cannot become context manager (Device or resource busy)
+D/dalvikvm(  337): GC_CONCURRENT freed 611K, 53% free 6034K/12708K, paused 32ms+6ms, total 426ms
+D/dalvikvm(  337): WAIT_FOR_CONCURRENT_GC blocked 97ms
+D/dalvikvm(  337): GC_EXPLICIT freed 329K, 52% free 6137K/12708K, paused 6ms+16ms, total 250ms
+D/AndroidRuntime( 1612): 
+D/AndroidRuntime( 1612): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1612): CheckJNI is ON
+I/Process (  337): Sending signal. PID: 550 SIG: 3
+I/dalvikvm(  550): threadid=3: reacting to signal 3
+D/dalvikvm( 1612): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1612): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1612): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1612): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1612): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+E/ActivityManager(  337): ANR in com.onp.reoayz:sev
+E/ActivityManager(  337): PID: 1311
+E/ActivityManager(  337): Reason: Broadcast of Intent { act=android.provider.Telephony.SMS_RECEIVED flg=0x8000010 (has extras) }
+E/ActivityManager(  337): Load: 13.71 / 5.95 / 2.31
+E/ActivityManager(  337): CPU usage from 0ms to 10928ms later:
+E/ActivityManager(  337):   21% 1143/cpueater: 21% user + 0% kernel
+E/ActivityManager(  337):   21% 1325/cpueater: 21% user + 0% kernel
+E/ActivityManager(  337):   16% 337/system_server: 10% user + 6% kernel / faults: 291 minor
+E/ActivityManager(  337):   4.3% 60/mediaserver: 3.2% user + 1% kernel / faults: 3 minor
+E/ActivityManager(  337):   1% 55/debuggerd: 0.5% user + 0.5% kernel / faults: 866 minor
+E/ActivityManager(  337):   0.9% 606/com.android.phone: 0.5% user + 0.3% kernel / faults: 1 minor
+E/ActivityManager(  337):   0.8% 1076/com.onp.reoayz: 0.4% user + 0.3% kernel / faults: 3 minor
+E/ActivityManager(  337):   0.3% 453/com.android.systemui: 0.2% user + 0.1% kernel
+E/ActivityManager(  337):   0.4% 1574/recovery: 0.1% user + 0.2% kernel
+E/ActivityManager(  337):   0.3% 1001/com.android.mms: 0.2% user + 0% kernel / faults: 3 minor
+E/ActivityManager(  337):   0.2% 57/surfaceflinger: 0.2% user + 0% kernel
+E/ActivityManager(  337):   0% 550/android.process.acore: 0% user + 0% kernel / faults: 23 minor
+E/ActivityManager(  337):   0% 11/kworker/0:1: 0% user + 0% kernel
+E/ActivityManager(  337):   0% 56/rild: 0% user + 0% kernel
+E/ActivityManager(  337):   0% 68/adbd: 0% user + 0% kernel / faults: 13 minor
+E/ActivityManager(  337):  +0% 1588/screencap: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1591/screenrecord: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1592/app_process: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1600/screenshot: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1601/sdcard: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1602/Binder_2: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1608/service: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1610/servicemanager: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1611/set_ext4_err_bi: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1612/app_process: 0% user + 0% kernel
+E/ActivityManager(  337): 100% TOTAL: 82% user + 17% kernel
+E/ActivityManager(  337): CPU usage from 9571ms to 10457ms later:
+E/ActivityManager(  337):   27% 1143/cpueater: 27% user + 0% kernel
+E/ActivityManager(  337):   28% 1325/cpueater: 28% user + 0% kernel
+E/ActivityManager(  337):   27% 1612/app_process: 14% user + 12% kernel / faults: 1234 minor
+E/ActivityManager(  337):   13% 337/system_server: 3.5% user + 9.5% kernel
+E/ActivityManager(  337):     14% 357/ActivityManager: 3.5% user + 10% kernel
+E/ActivityManager(  337):   3.4% 60/mediaserver: 2.2% user + 1.1% kernel
+E/ActivityManager(  337):     3.4% 117/AudioOut_2: 3.4% user + 0% kernel
+E/ActivityManager(  337):     2.2% 1401/.vorbis.decoder: 1.1% user + 1.1% kernel
+E/ActivityManager(  337):   0.6% 57/surfaceflinger: 0.6% user + 0% kernel
+E/ActivityManager(  337):     0.3% 78/Binder_1: 0.3% user + 0% kernel
+E/ActivityManager(  337):     0.3% 94/EventThread: 0.3% user + 0% kernel
+E/ActivityManager(  337):   1.1% 550/android.process.acore: 1.1% user + 0% kernel
+E/ActivityManager(  337):     1.1% 590/Binder_3: 1.1% user + 0% kernel
+E/ActivityManager(  337):   0.6% 1574/recovery: 0.6% user + 0% kernel
+E/ActivityManager(  337):     0.6% 1576/recovery: 0% user + 0.6% kernel
+E/ActivityManager(  337): 100% TOTAL: 75% user + 24% kernel
+I/ActivityManager(  337): Killing 1311:com.onp.reoayz:sev/u0a52 (adj 8): background ANR
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b2d68d38 u0 com.onp.reoayz/com.yunpan.babyguess.HelpActivity t4}
+D/dalvikvm(  337): GC_CONCURRENT freed 504K, 50% free 6422K/12708K, paused 18ms+28ms, total 329ms
+D/dalvikvm(  337): WAIT_FOR_CONCURRENT_GC blocked 313ms
+D/AndroidRuntime( 1617): 
+D/AndroidRuntime( 1617): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1617): CheckJNI is ON
+D/dalvikvm( 1617): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1617): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1617): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1617): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1617): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/dalvikvm( 1617): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+I/dalvikvm(  550): Wrote stack traces to '/data/anr/traces.txt'
+D/AndroidRuntime( 1625): 
+D/AndroidRuntime( 1625): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1625): CheckJNI is ON
+D/dalvikvm( 1625): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1625): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1625): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1625): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1625): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1625): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/uim-sysfs( 1633): uim: Inside main
+E/uim-sysfs( 1633): uim: Invalid arguements
+E/uim-sysfs( 1633): uim: Usage: uim <bd address>
+W/ActivityManager(  337): Scheduling restart of crashed service com.onp.reoayz/top.cure.sev in 1000ms
+I/Vold    ( 1636): Vold 2.1 (the revenge) firing up
+E/Vold    ( 1636): failed to open /fstab.goldfish
+E/Vold    ( 1636): Error reading configuration (Permission denied)... continuing anyways
+E/Vold    ( 1636): Unable to set uevent socket SO_RCVBUFFORCE option: Operation not permitted
+E/Vold    ( 1636): Unable to start NetlinkManager (Operation not permitted)
+I/ActivityManager(  337): Start proc com.onp.reoayz:sev for service com.onp.reoayz/top.cure.sev: pid=1638 uid=10052 gids={50052, 3003, 1028, 1015}
+D/AndroidRuntime( 1592): Shutting down VM
+D/dalvikvm( 1592): GC_CONCURRENT freed 97K, 15% free 589K/688K, paused 2ms+1ms, total 31ms
+W/ActivityManager(  337): Scheduling restart of crashed service com.onp.reoayz/com.emag.yapz.ph.game.syd.chjieservice in 1000ms
+E/FrameworkListener(   54): read() failed (Connection reset by peer)
+D/AndroidRuntime( 1637): 
+D/AndroidRuntime( 1637): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1637): CheckJNI is ON
+D/dalvikvm( 1637): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1637): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1637): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1637): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1637): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+I/ActivityManager(  337): Start proc com.onp.reoayz:remote for service com.onp.reoayz/com.emag.yapz.ph.game.syd.chjieservice: pid=1650 uid=10052 gids={50052, 3003, 1028, 1015}
+D/AndroidRuntime( 1670): 
+D/AndroidRuntime( 1670): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1670): CheckJNI is ON
+D/dalvikvm( 1670): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1670): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1670): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1670): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1670): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1670): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1670): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1670): failed to load memtrack module: -2
+D/AndroidRuntime( 1670): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.cy.smspay.HJActivity} from pid 1670
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b35d23d0 u0 com.onp.reoayz/com.test.MActivity t4}
+D/dalvikvm( 1638): GC_FOR_ALLOC freed 45K, 4% free 2721K/2832K, paused 5648ms, total 5649ms
+D/dalvikvm( 1650): GC_FOR_ALLOC freed 49K, 5% free 2721K/2836K, paused 2601ms, total 2601ms
+I/dalvikvm-heap( 1638): Grow heap (frag case) to 3.584MB for 910157-byte allocation
+I/dalvikvm-heap( 1650): Grow heap (frag case) to 3.584MB for 910157-byte allocation
+D/dalvikvm( 1638): GC_FOR_ALLOC freed 0K, 4% free 3610K/3724K, paused 860ms, total 860ms
+D/dalvikvm( 1650): GC_FOR_ALLOC freed 0K, 4% free 3610K/3728K, paused 1322ms, total 1322ms
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1670): Shutting down VM
+D/dalvikvm( 1670): GC_CONCURRENT freed 97K, 15% free 589K/688K, paused 3ms+1ms, total 25ms
+D/AndroidRuntime( 1680): 
+D/AndroidRuntime( 1680): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1680): CheckJNI is ON
+D/dalvikvm( 1680): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1680): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1680): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1680): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1680): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1680): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+W/System.err( 1076): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1076): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1076): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1076): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1076): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1076): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1076): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1076): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1076): java.net.SocketTimeoutException: failed to connect to /139.129.132.111 (port 8001) after 40000ms
+W/System.err( 1076): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:159)
+W/System.err( 1076): 	at libcore.io.IoBridge.connect(IoBridge.java:112)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:192)
+W/System.err( 1076): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:459)
+W/System.err( 1076): 	at java.net.Socket.connect(Socket.java:843)
+W/System.err( 1076): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:152)
+W/System.err( 1076): 	at com.android.okhttp.Connection.connect(Connection.java:101)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:294)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendSocketRequest(HttpEngine.java:255)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:206)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:345)
+W/System.err( 1076): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:89)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:548)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection$Response.execute(SourceFile:525)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.execute(SourceFile:224)
+W/System.err( 1076): 	at com.sdky.jzp.jsoup.helper.HttpConnection.get(SourceFile:212)
+W/System.err( 1076): 	at com.sdky.jzp.co.run(SourceFile:104)
+W/System.err( 1076): 	at java.lang.Thread.run(Thread.java:841)
+E/memtrack( 1680): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1680): failed to load memtrack module: -2
+D/AndroidRuntime( 1680): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.b.ht.FJA} from pid 1680
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b367a868 u0 com.onp.reoayz/com.cy.smspay.HJActivity t4}
+E/AudioSink(   60): received unknown event type: 1 inside CallbackWrapper !
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1680): Shutting down VM
+D/dalvikvm( 1680): GC_CONCURRENT freed 97K, 15% free 589K/688K, paused 3ms+2ms, total 13ms
+W/BroadcastQueue(  337): Timeout of broadcast BroadcastRecord{b367a740 u0 android.provider.Telephony.SMS_RECEIVED} - receiver=android.os.BinderProxy@b2d9af88, started 60002ms ago
+W/BroadcastQueue(  337): Receiver during timeout: BroadcastFilter{b2ce4608 u0 ReceiverList{b2d6df80 1076 com.onp.reoayz/10052/u0 remote:b2d9af88}}
+I/Process (  337): Sending signal. PID: 1076 SIG: 3
+I/dalvikvm( 1076): threadid=3: reacting to signal 3
+I/Process (  337): Sending signal. PID: 337 SIG: 3
+I/dalvikvm(  337): threadid=3: reacting to signal 3
+I/dalvikvm( 1076): Wrote stack traces to '/data/anr/traces.txt'
+I/Process (  337): Sending signal. PID: 606 SIG: 3
+I/dalvikvm(  606): threadid=3: reacting to signal 3
+I/Process (  337): Sending signal. PID: 453 SIG: 3
+I/dalvikvm(  453): threadid=3: reacting to signal 3
+I/dalvikvm(  337): Wrote stack traces to '/data/anr/traces.txt'
+I/dalvikvm(  453): Wrote stack traces to '/data/anr/traces.txt'
+W/dalvikvm(  606): threadid=3: spin on suspend #1 threadid=9 (pcf=0)
+D/dalvikvm(  606): Temporarily moving tid 641 to fg (was 0)
+D/dalvikvm(  606): Temporarily raised priority on tid 641 (10 -> 0)
+W/dalvikvm(  606): threadid=3: spin on suspend resolved in 1279 msec
+D/dalvikvm(  606): Restored policy of 641 to 0
+D/dalvikvm(  606): Restored priority on 641 to 10
+I/dalvikvm(  606): Wrote stack traces to '/data/anr/traces.txt'
+D/AndroidRuntime( 1690): 
+D/AndroidRuntime( 1690): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1690): CheckJNI is ON
+D/dalvikvm( 1690): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1690): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1690): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1690): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1690): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1690): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+D/dalvikvm(  337): GC_CONCURRENT freed 1315K, 53% free 6040K/12708K, paused 17ms+5ms, total 614ms
+D/dalvikvm(  337): WAIT_FOR_CONCURRENT_GC blocked 161ms
+E/memtrack( 1690): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1690): failed to load memtrack module: -2
+D/hc_a    ( 1076): timer
+D/AndroidRuntime( 1690): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.door.pay.sdk.DnPayActivity} from pid 1690
+D/dalvikvm(  337): GC_EXPLICIT freed 397K, 52% free 6170K/12708K, paused 15ms+6ms, total 194ms
+I/Process (  337): Sending signal. PID: 1638 SIG: 3
+E/ActivityManager(  337): ANR in com.onp.reoayz
+E/ActivityManager(  337): PID: 1076
+E/ActivityManager(  337): Reason: Broadcast of Intent { act=android.provider.Telephony.SMS_RECEIVED flg=0x8000010 (has extras) }
+E/ActivityManager(  337): Load: 14.63 / 7.62 / 3.11
+E/ActivityManager(  337): CPU usage from 0ms to 9139ms later:
+E/ActivityManager(  337):   25% 1143/cpueater: 25% user + 0% kernel
+E/ActivityManager(  337):   25% 1325/cpueater: 25% user + 0% kernel
+E/ActivityManager(  337):   19% 337/system_server: 12% user + 6.8% kernel / faults: 281 minor
+E/ActivityManager(  337):   0.6% 55/debuggerd: 0.3% user + 0.2% kernel / faults: 857 minor
+E/ActivityManager(  337):   3.8% 60/mediaserver: 2.2% user + 1.5% kernel
+E/ActivityManager(  337):   1% 1076/com.onp.reoayz: 0.5% user + 0.5% kernel / faults: 26 minor
+E/ActivityManager(  337):   1.2% 606/com.android.phone: 0.7% user + 0.4% kernel / faults: 12 minor
+E/ActivityManager(  337):   0.1% 453/com.android.systemui: 0.1% user + 0% kernel
+E/ActivityManager(  337):   0.6% 1574/recovery: 0% user + 0.6% kernel
+E/ActivityManager(  337):   0.6% 1650/com.onp.reoayz:remote: 0.6% user + 0% kernel
+E/ActivityManager(  337):   0.5% 1638/com.onp.reoayz:sev: 0.5% user + 0% kernel
+E/ActivityManager(  337):   0% 56/rild: 0% user + 0% kernel
+E/ActivityManager(  337):   0% 11/kworker/0:1: 0% user + 0% kernel
+E/ActivityManager(  337):  +0% 1690/app_process: 0% user + 0% kernel
+E/ActivityManager(  337): 100% TOTAL: 87% user + 12% kernel
+E/ActivityManager(  337): CPU usage from 8023ms to 8732ms later:
+E/ActivityManager(  337):   40% 1143/cpueater: 40% user + 0% kernel
+E/ActivityManager(  337):   40% 1325/cpueater: 40% user + 0% kernel
+E/ActivityManager(  337):   12% 337/system_server: 6.9% user + 5.5% kernel
+E/ActivityManager(  337):     12% 357/ActivityManager: 5.5% user + 6.9% kernel
+E/ActivityManager(  337):   4.2% 60/mediaserver: 1.4% user + 2.8% kernel
+E/ActivityManager(  337):     4.2% 1402/OMXCallbackDisp: 1.4% user + 2.8% kernel
+E/ActivityManager(  337):   1.4% 1574/recovery: 0% user + 1.4% kernel
+E/ActivityManager(  337):     1.4% 1576/recovery: 0% user + 1.4% kernel
+E/ActivityManager(  337):   1.4% 1638/com.onp.reoayz:sev: 1.4% user + 0% kernel
+E/ActivityManager(  337):     1.4% 1638/.onp.reoayz:sev: 1.4% user + 0% kernel
+E/ActivityManager(  337): 100% TOTAL: 92% user + 7% kernel
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b2d4d508 u0 com.onp.reoayz/com.b.ht.FJA t5}
+D/dalvikvm(  337): GC_FOR_ALLOC freed 330K, 50% free 6473K/12708K, paused 183ms, total 184ms
+I/Choreographer(  337): Skipped 46 frames!  The application may be doing too much work on its main thread.
+D/dalvikvm(  337): GC_CONCURRENT freed 560K, 47% free 6800K/12708K, paused 11ms+74ms, total 649ms
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1690): Shutting down VM
+D/dalvikvm( 1690): GC_CONCURRENT freed 97K, 15% free 589K/692K, paused 2ms+2ms, total 22ms
+D/AndroidRuntime( 1638): Shutting down VM
+W/dalvikvm( 1638): threadid=1: thread exiting with uncaught exception (group=0xb2a40ba8)
+E/AndroidRuntime( 1638): FATAL EXCEPTION: main
+E/AndroidRuntime( 1638): Process: com.onp.reoayz:sev, PID: 1638
+E/AndroidRuntime( 1638): java.lang.RuntimeException: Unable to instantiate application wmlr.asp.fzpeaam.jUXCE: java.lang.NullPointerException
+E/AndroidRuntime( 1638): 	at android.app.LoadedApk.makeApplication(LoadedApk.java:507)
+E/AndroidRuntime( 1638): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4301)
+E/AndroidRuntime( 1638): 	at android.app.ActivityThread.access$1500(ActivityThread.java:135)
+E/AndroidRuntime( 1638): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1256)
+E/AndroidRuntime( 1638): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 1638): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 1638): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+E/AndroidRuntime( 1638): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1638): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 1638): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+E/AndroidRuntime( 1638): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+E/AndroidRuntime( 1638): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 1638): Caused by: java.lang.NullPointerException
+E/AndroidRuntime( 1638): 	at wmlr.asp.fzpeaam.tzuoFpyh.a(tzuoFpyh.java:181)
+E/AndroidRuntime( 1638): 	at wmlr.asp.fzpeaam.tzuoFpyh.b(tzuoFpyh.java:196)
+E/AndroidRuntime( 1638): 	at wmlr.asp.fzpeaam.jUXCE.attachBaseContext(jUXCE.java:12)
+E/AndroidRuntime( 1638): 	at android.app.Application.attach(Application.java:181)
+E/AndroidRuntime( 1638): 	at android.app.Instrumentation.newApplication(Instrumentation.java:991)
+E/AndroidRuntime( 1638): 	at android.app.Instrumentation.newApplication(Instrumentation.java:975)
+E/AndroidRuntime( 1638): 	at android.app.LoadedApk.makeApplication(LoadedApk.java:502)
+E/AndroidRuntime( 1638): 	... 11 more
+I/Choreographer(  337): Skipped 32 frames!  The application may be doing too much work on its main thread.
+D/AndroidRuntime( 1707): 
+D/AndroidRuntime( 1707): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1707): CheckJNI is ON
+D/dalvikvm( 1707): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1707): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1707): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1707): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1707): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1707): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1707): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1707): failed to load memtrack module: -2
+D/AndroidRuntime( 1707): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.alipay.android.app.sdk.WapPayActivity} from pid 1707
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b2d6d278 u0 com.onp.reoayz/com.door.pay.sdk.DnPayActivity t4}
+D/MmsSmsProvider(  606): getSingleAddressId: insert new canonical_address for xxxxxx, _id=1
+D/MmsSmsProvider(  606): getThreadId: create new thread_id for recipients xxxxxxxx
+D/MmsSmsProvider(  606): insertThread: created new thread_id 1 for recipientIds xxxxxxx
+I/dalvikvm( 1638): threadid=3: reacting to signal 3
+D/dalvikvm( 1638): GC_CONCURRENT freed 946K, 27% free 2739K/3748K, paused 2ms+2593ms, total 3946ms
+I/dalvikvm( 1638): Wrote stack traces to '/data/anr/traces.txt'
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/dalvikvm( 1650): GC_CONCURRENT freed 908K, 27% free 2725K/3728K, paused 2ms+414ms, total 1282ms
+D/AndroidRuntime( 1707): Shutting down VM
+D/dalvikvm( 1707): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 0ms+2ms, total 12ms
+D/AndroidRuntime( 1721): 
+D/AndroidRuntime( 1721): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1721): CheckJNI is ON
+D/dalvikvm( 1721): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1721): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1721): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1721): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1721): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1721): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1721): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1721): failed to load memtrack module: -2
+D/AndroidRuntime( 1721): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.cy.pay.TiantianSMPay} from pid 1721
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b33bbb60 u0 com.onp.reoayz/com.alipay.android.app.sdk.WapPayActivity t4}
+D/SmsReceiverService( 1001): handleSmsReceived messageUri: content://sms/1 threadId: 1
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+D/dalvikvm( 1650): GC_CONCURRENT freed 334K, 13% free 2864K/3264K, paused 13ms+422ms, total 4226ms
+D/AndroidRuntime( 1721): Shutting down VM
+D/dalvikvm( 1721): GC_CONCURRENT freed 97K, 15% free 589K/688K, paused 2ms+12ms, total 23ms
+E/AudioSink(   60): received unknown event type: 1 inside CallbackWrapper !
+W/System.err( 1650): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.a(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.chjieservice.onCreate(Unknown Source)
+W/System.err( 1650): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2558)
+W/System.err( 1650): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+W/System.err( 1650): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+W/System.err( 1650): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1650): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1650): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1650): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1650): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1650): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1650): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1650): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1650): Caused by: java.io.IOException: Permission denied
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1650): 	... 17 more
+W/System.err( 1650): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.a(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.chjieservice.onCreate(Unknown Source)
+W/System.err( 1650): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2558)
+W/System.err( 1650): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+W/System.err( 1650): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+W/System.err( 1650): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1650): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1650): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1650): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1650): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1650): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1650): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1650): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1650): Caused by: java.io.IOException: Permission denied
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1650): 	... 17 more
+W/System.err( 1650): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.a(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.chjieservice.onCreate(Unknown Source)
+W/System.err( 1650): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2558)
+W/System.err( 1650): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+W/System.err( 1650): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+W/System.err( 1650): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/System.err( 1650): 	at android.os.Looper.loop(Looper.java:136)
+W/System.err( 1650): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+W/System.err( 1650): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/System.err( 1650): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/System.err( 1650): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+W/System.err( 1650): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+W/System.err( 1650): 	at dalvik.system.NativeStart.main(Native Method)
+W/System.err( 1650): Caused by: java.io.IOException: Permission denied
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1650): 	... 17 more
+D/AndroidRuntime( 1742): 
+D/AndroidRuntime( 1742): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1742): CheckJNI is ON
+D/dalvikvm( 1742): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1742): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1742): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1742): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1742): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1742): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1742): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1742): failed to load memtrack module: -2
+D/AndroidRuntime( 1742): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.cy.pay.TiantianGzhPay} from pid 1742
+W/System.err( 1650): java.io.IOException: Error running exec(). Command: [conbb, od2gf04pd9] Working Directory: null Environment: null
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1650): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1650): Caused by: java.io.IOException: Permission denied
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1650): 	... 7 more
+W/ActivityManager(  337): Activity pause timeout for ActivityRecord{b2e18548 u0 com.onp.reoayz/com.cy.pay.TiantianSMPay t4}
+W/System.err( 1650): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1650): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1650): Caused by: java.io.IOException: Permission denied
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1650): 	... 7 more
+D/hc_a    ( 1076): timer
+W/System.err( 1650): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1650): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1650): Caused by: java.io.IOException: Permission denied
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1650): 	... 7 more
+W/System.err( 1650): java.io.IOException: Error running exec(). Command: [su8] Working Directory: null Environment: null
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:211)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:173)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:246)
+W/System.err( 1650): 	at java.lang.Runtime.exec(Runtime.java:189)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.f(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.h.b(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.g.run(Unknown Source)
+W/System.err( 1650): 	at java.lang.Thread.run(Thread.java:841)
+W/System.err( 1650): Caused by: java.io.IOException: Permission denied
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(Native Method)
+W/System.err( 1650): 	at java.lang.ProcessManager.exec(ProcessManager.java:209)
+W/System.err( 1650): 	... 7 more
+W/System.err( 1650): java.net.UnknownHostException: Unable to resolve host "tt.lwsja.com": No address associated with hostname
+W/System.err( 1650): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+W/System.err( 1650): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 1650): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 1650): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1650): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1650): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1650): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1650): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1650): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1650): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1650): 	at com.emag.yapz.ph.b.e.a(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.l.run(Unknown Source)
+W/System.err( 1650): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+W/System.err( 1650): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1650): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 1650): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+W/System.err( 1650): 	... 11 more
+W/ActivityManager(  337): Launch timeout has expired, giving up wake lock!
+W/System.err( 1650): java.net.UnknownHostException: Unable to resolve host "tt.lwsja.com": No address associated with hostname
+W/System.err( 1650): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:424)
+W/System.err( 1650): 	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:236)
+W/System.err( 1650): 	at java.net.InetAddress.getAllByName(InetAddress.java:214)
+W/System.err( 1650): 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+W/System.err( 1650): 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+W/System.err( 1650): 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+W/System.err( 1650): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+W/System.err( 1650): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+W/System.err( 1650): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+W/System.err( 1650): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+W/System.err( 1650): 	at com.emag.yapz.ph.b.e.a(Unknown Source)
+W/System.err( 1650): 	at com.emag.yapz.ph.game.syd.j.run(Unknown Source)
+W/System.err( 1650): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+W/System.err( 1650): Caused by: libcore.io.GaiException: getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+D/AndroidRuntime( 1742): Shutting down VM
+W/System.err( 1650): 	at libcore.io.Posix.getaddrinfo(Native Method)
+W/System.err( 1650): 	at libcore.io.ForwardingOs.getaddrinfo(ForwardingOs.java:61)
+W/System.err( 1650): 	at java.net.InetAddress.lookupHostByName(InetAddress.java:405)
+W/System.err( 1650): 	... 12 more
+D/dalvikvm( 1742): GC_CONCURRENT freed 97K, 15% free 589K/688K, paused 3ms+12ms, total 31ms
+D/AndroidRuntime( 1759): 
+D/AndroidRuntime( 1759): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1759): CheckJNI is ON
+D/dalvikvm( 1759): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1759): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1759): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1759): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1759): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1759): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1759): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1759): failed to load memtrack module: -2
+D/AndroidRuntime( 1759): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1759): Shutting down VM
+D/dalvikvm( 1759): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 2ms+2ms, total 23ms
+D/AndroidRuntime( 1770): 
+D/AndroidRuntime( 1770): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1770): CheckJNI is ON
+D/dalvikvm( 1770): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1770): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1770): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1770): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1770): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1770): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1770): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1770): failed to load memtrack module: -2
+D/AndroidRuntime( 1770): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1770): Shutting down VM
+D/dalvikvm( 1770): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 3ms+3ms, total 26ms
+D/AndroidRuntime( 1781): 
+D/AndroidRuntime( 1781): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1781): CheckJNI is ON
+D/dalvikvm( 1781): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1781): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1781): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1781): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1781): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1781): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1781): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1781): failed to load memtrack module: -2
+D/AndroidRuntime( 1781): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1781): Shutting down VM
+D/dalvikvm( 1781): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 2ms+12ms, total 23ms
+D/dalvikvm( 1650): GC_CONCURRENT freed 431K, 15% free 2892K/3388K, paused 547ms+5ms, total 7408ms
+D/AndroidRuntime( 1791): 
+D/AndroidRuntime( 1791): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1791): CheckJNI is ON
+D/dalvikvm( 1791): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1791): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1791): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1791): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1791): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1791): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1791): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1791): failed to load memtrack module: -2
+D/AndroidRuntime( 1791): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1791): Shutting down VM
+D/dalvikvm( 1791): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 3ms+2ms, total 15ms
+D/AndroidRuntime( 1801): 
+D/AndroidRuntime( 1801): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1801): CheckJNI is ON
+D/dalvikvm( 1801): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1801): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1801): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1801): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1801): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1801): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1801): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1801): failed to load memtrack module: -2
+D/AndroidRuntime( 1801): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1801): Shutting down VM
+D/dalvikvm( 1801): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 3ms+13ms, total 25ms
+W/BroadcastQueue(  337): Timeout of broadcast BroadcastRecord{b367a740 u0 android.provider.Telephony.SMS_RECEIVED} - receiver=android.os.BinderProxy@b30fdb60, started 60016ms ago
+W/BroadcastQueue(  337): Receiver during timeout: BroadcastFilter{b3594af8 u0 ReceiverList{b361bd48 1076 com.onp.reoayz/10052/u0 remote:b30fdb60}}
+D/AndroidRuntime( 1811): 
+D/AndroidRuntime( 1811): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1811): CheckJNI is ON
+I/ActivityManager(  337): Skipping duplicate ANR: ProcessRecord{b2ee3d10 1076:com.onp.reoayz/u0a52} Broadcast of Intent { act=android.provider.Telephony.SMS_RECEIVED flg=0x8000010 (has extras) }
+D/dalvikvm( 1811): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1811): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1811): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1811): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1811): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1811): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1811): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1811): failed to load memtrack module: -2
+D/AndroidRuntime( 1811): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1811): Shutting down VM
+D/dalvikvm( 1811): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 13ms+2ms, total 35ms
+D/AndroidRuntime( 1822): 
+D/AndroidRuntime( 1822): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1822): CheckJNI is ON
+D/dalvikvm( 1822): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1822): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1822): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1822): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1822): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1822): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+W/ActivityManager(  337): Timeout executing service: ServiceRecord{b35c9698 u0 com.onp.reoayz/com.test.URFJ}
+I/ActivityManager(  337): Skipping duplicate ANR: ProcessRecord{b2ee3d10 1076:com.onp.reoayz/u0a52} Executing service com.onp.reoayz/com.test.URFJ
+E/memtrack( 1822): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1822): failed to load memtrack module: -2
+D/AndroidRuntime( 1822): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1822): Shutting down VM
+D/dalvikvm( 1822): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 3ms+3ms, total 15ms
+D/Mms:app ( 1001): updateNotification: new message, adding sound to the notification
+D/AndroidRuntime( 1832): 
+D/AndroidRuntime( 1832): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1832): CheckJNI is ON
+D/dalvikvm( 1832): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1832): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1832): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1832): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1832): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1832): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1832): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1832): failed to load memtrack module: -2
+D/AndroidRuntime( 1832): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1832): Shutting down VM
+I/ActivityManager(  337): Start proc com.onp.reoayz:service2 for service com.onp.reoayz/com.pay.sdk.msg.PayListenerService: pid=1843 uid=10052 gids={50052, 3003, 1028, 1015}
+D/dalvikvm( 1832): GC_CONCURRENT freed 97K, 15% free 585K/684K, paused 3ms+14ms, total 26ms
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 53K, 5% free 2724K/2840K, paused 236ms, total 237ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 3.587MB for 910157-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 0K, 4% free 3613K/3732K, paused 82ms, total 82ms
+D/dalvikvm( 1843): GC_CONCURRENT freed <1K, 4% free 3613K/3732K, paused 95ms+3ms, total 185ms
+D/AndroidRuntime( 1855): 
+D/AndroidRuntime( 1855): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1855): CheckJNI is ON
+D/dalvikvm( 1855): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1855): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1855): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1855): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1855): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1855): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+W/ActivityManager(  337): Timeout executing service: ServiceRecord{b2e85b28 u0 com.onp.reoayz/top.cure.sev}
+E/memtrack( 1855): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1855): failed to load memtrack module: -2
+I/ActivityManager(  337): Crashing app skipping ANR: ProcessRecord{b2d42280 1638:com.onp.reoayz:sev/u0a52} Executing service com.onp.reoayz/top.cure.sev
+D/AndroidRuntime( 1855): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1855): Shutting down VM
+D/dalvikvm( 1855): GC_CONCURRENT freed 97K, 15% free 585K/684K, paused 2ms+1ms, total 19ms
+D/AndroidRuntime( 1868): 
+D/AndroidRuntime( 1868): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1868): CheckJNI is ON
+D/dalvikvm( 1868): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1868): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1868): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1868): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1868): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1868): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1868): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1868): failed to load memtrack module: -2
+D/AndroidRuntime( 1868): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1868): Shutting down VM
+D/dalvikvm( 1868): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 12ms+1ms, total 20ms
+D/AndroidRuntime( 1878): 
+D/AndroidRuntime( 1878): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1878): CheckJNI is ON
+D/dalvikvm( 1878): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1878): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1878): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1878): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1878): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1878): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1878): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1878): failed to load memtrack module: -2
+D/AndroidRuntime( 1878): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1878): Shutting down VM
+D/dalvikvm( 1878): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 1ms+1ms, total 10ms
+E/AudioSink(   60): received unknown event type: 1 inside CallbackWrapper !
+D/AndroidRuntime( 1888): 
+D/AndroidRuntime( 1888): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1888): CheckJNI is ON
+D/dalvikvm( 1888): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1888): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1888): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1888): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1888): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1888): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1888): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1888): failed to load memtrack module: -2
+D/AndroidRuntime( 1888): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1888): Shutting down VM
+D/dalvikvm( 1888): GC_CONCURRENT freed 97K, 15% free 585K/684K, paused 2ms+2ms, total 33ms
+D/AndroidRuntime( 1899): 
+D/AndroidRuntime( 1899): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1899): CheckJNI is ON
+D/dalvikvm( 1899): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1899): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1899): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1899): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1899): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1899): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1899): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1899): failed to load memtrack module: -2
+D/AndroidRuntime( 1899): Calling main entry com.android.commands.am.Am
+D/hc_a    ( 1076): timer
+D/AndroidRuntime( 1899): Shutting down VM
+D/dalvikvm( 1899): GC_CONCURRENT freed 97K, 15% free 585K/684K, paused 2ms+1ms, total 20ms
+D/dalvikvm( 1076): GC_CONCURRENT freed 912K, 20% free 5899K/7344K, paused 10482ms+13ms, total 10650ms
+D/AndroidRuntime( 1912): 
+D/AndroidRuntime( 1912): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1912): CheckJNI is ON
+D/dalvikvm( 1912): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1912): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1912): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1912): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1912): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1912): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1912): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1912): failed to load memtrack module: -2
+D/AndroidRuntime( 1912): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1912): Shutting down VM
+D/dalvikvm( 1912): GC_CONCURRENT freed 97K, 15% free 585K/684K, paused 1ms+1ms, total 20ms
+D/AndroidRuntime( 1922): 
+D/AndroidRuntime( 1922): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1922): CheckJNI is ON
+D/dalvikvm( 1922): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1922): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1922): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1922): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1922): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1922): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1922): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1922): failed to load memtrack module: -2
+D/AndroidRuntime( 1922): Calling main entry com.android.commands.am.Am
+D/AndroidRuntime( 1922): Shutting down VM
+D/dalvikvm( 1922): GC_CONCURRENT freed 96K, 15% free 585K/684K, paused 2ms+1ms, total 21ms
+D/AndroidRuntime( 1933): 
+D/AndroidRuntime( 1933): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1933): CheckJNI is ON
+I/Choreographer(  453): Skipped 44 frames!  The application may be doing too much work on its main thread.
+D/dalvikvm( 1933): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1933): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1933): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1933): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1933): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1933): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1933): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1933): failed to load memtrack module: -2
+D/AndroidRuntime( 1933): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  337): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.onp.reoayz/com.yunpan.babyguess.SplashActivity} from pid 1933
+W/BroadcastQueue(  337): Timeout of broadcast BroadcastRecord{b367a740 u0 android.provider.Telephony.SMS_RECEIVED} - receiver=android.os.BinderProxy@b339c690, started 60008ms ago
+W/BroadcastQueue(  337): Receiver during timeout: ResolveInfo{b339d4c8 com.onp.reoayz/com.emag.yapz.receiver.ZPayReceiver2 p=2147483647 m=0x108000}
+I/ActivityManager(  337): Skipping duplicate ANR: ProcessRecord{b2ee3d10 1076:com.onp.reoayz/u0a52} Broadcast of Intent { act=android.provider.Telephony.SMS_RECEIVED flg=0x8000010 cmp=com.onp.reoayz/com.emag.yapz.receiver.ZPayReceiver2 (has extras) }
+W/ActivityManager(  337): Timeout executing service: ServiceRecord{b2e85b28 u0 com.onp.reoayz/top.cure.sev}
+I/ActivityManager(  337): Crashing app skipping ANR: ProcessRecord{b2d42280 1638:com.onp.reoayz:sev/u0a52} Executing service com.onp.reoayz/top.cure.sev

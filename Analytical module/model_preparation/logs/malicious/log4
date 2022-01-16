@@ -1,0 +1,327 @@
+--------- beginning of /dev/log/main
+I/Choreographer( 1156): Skipped 37 frames!  The application may be doing too much work on its main thread.
+I/ActivityManager(  350): Displayed cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen: +1s396ms
+D/AndroidRuntime( 1202): Shutting down VM
+D/dalvikvm( 1202): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+1ms, total 20ms
+I/MediaFocusControl(  350):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@b2da12e8com.android.music.MediaPlaybackService$3@b2da0168
+D/AndroidRuntime( 1217): 
+D/AndroidRuntime( 1217): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1217): CheckJNI is ON
+D/dalvikvm( 1217): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1217): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1217): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1217): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1217): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1217): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1217): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1217): failed to load memtrack module: -2
+D/AndroidRuntime( 1217): Calling main entry com.android.commands.am.Am
+--------- beginning of /dev/log/system
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookViewer} from pid 1217
+D/AndroidRuntime( 1156): Shutting down VM
+W/dalvikvm( 1156): threadid=1: thread exiting with uncaught exception (group=0xb2ae6ba8)
+E/AndroidRuntime( 1156): FATAL EXCEPTION: main
+E/AndroidRuntime( 1156): Process: cn.hongxiu.singlebook89957, PID: 1156
+E/AndroidRuntime( 1156): java.lang.RuntimeException: Unable to start activity ComponentInfo{cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookViewer}: java.lang.NullPointerException
+E/AndroidRuntime( 1156): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+E/AndroidRuntime( 1156): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2233)
+E/AndroidRuntime( 1156): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+E/AndroidRuntime( 1156): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+E/AndroidRuntime( 1156): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 1156): 	at android.os.Looper.loop(Looper.java:136)
+E/AndroidRuntime( 1156): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+E/AndroidRuntime( 1156): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime( 1156): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/AndroidRuntime( 1156): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+E/AndroidRuntime( 1156): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+E/AndroidRuntime( 1156): 	at dalvik.system.NativeStart.main(Native Method)
+E/AndroidRuntime( 1156): Caused by: java.lang.NullPointerException
+E/AndroidRuntime( 1156): 	at cn.hongxiu.book.ui.frame.ActivityBookViewer.bundle(ActivityBookViewer.java:208)
+E/AndroidRuntime( 1156): 	at cn.hongxiu.book.ui.frame.ActivityBookViewer.initActivity(ActivityBookViewer.java:128)
+E/AndroidRuntime( 1156): 	at cn.hongxiu.book.ui.ActivityGroup_HongxiuBook.onCreate(ActivityGroup_HongxiuBook.java:135)
+E/AndroidRuntime( 1156): 	at android.app.Activity.performCreate(Activity.java:5231)
+E/AndroidRuntime( 1156): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+E/AndroidRuntime( 1156): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2148)
+E/AndroidRuntime( 1156): 	... 11 more
+W/ActivityManager(  350):   Force finishing activity cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookViewer
+W/ActivityManager(  350):   Force finishing activity cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen
+D/dalvikvm(  350): GC_CONCURRENT freed 332K, 51% free 6174K/12532K, paused 30ms+62ms, total 325ms
+I/Choreographer(  350): Skipped 55 frames!  The application may be doing too much work on its main thread.
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2f5bd58 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookViewer t4 f}
+I/Choreographer(  350): Skipped 36 frames!  The application may be doing too much work on its main thread.
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1217): Shutting down VM
+D/dalvikvm( 1217): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+1ms, total 22ms
+D/AndroidRuntime( 1229): 
+D/AndroidRuntime( 1229): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1229): CheckJNI is ON
+D/dalvikvm( 1229): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1229): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1229): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1229): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1229): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1229): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1229): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1229): failed to load memtrack module: -2
+D/AndroidRuntime( 1229): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityLocalBookViewer} from pid 1229
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2f75ee0 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen t4}
+W/ActivityManager(  350): Activity destroy timeout for ActivityRecord{b2f79408 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen t4 f}
+W/ActivityManager(  350): Activity destroy timeout for ActivityRecord{b2f5bd58 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookViewer t4 f}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1229): Shutting down VM
+D/dalvikvm( 1229): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+1ms, total 9ms
+D/AndroidRuntime( 1239): 
+D/AndroidRuntime( 1239): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1239): CheckJNI is ON
+D/dalvikvm( 1239): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1239): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1239): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1239): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1239): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1239): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1239): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1239): failed to load memtrack module: -2
+D/AndroidRuntime( 1239): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookMark} from pid 1239
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2f4b760 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityLocalBookViewer t4}
+W/WindowManager(  350): Rebuild removed 3 windows but added 2
+W/WindowManager(  350): java.lang.RuntimeException: here
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService.rebuildAppWindowListLocked(WindowManagerService.java:8027)
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService.rebuildAppWindowListLocked(WindowManagerService.java:7963)
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService.handleAppTransitionReadyLocked(WindowManagerService.java:8446)
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedInner(WindowManagerService.java:9209)
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLockedLoop(WindowManagerService.java:8179)
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService.performLayoutAndPlaceSurfacesLocked(WindowManagerService.java:8121)
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService.access$300(WindowManagerService.java:157)
+W/WindowManager(  350): 	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:7342)
+W/WindowManager(  350): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/WindowManager(  350): 	at android.os.Looper.loop(Looper.java:136)
+W/WindowManager(  350): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/WindowManager(  350): This window was lost: Window{b2f74250 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen}
+W/WindowManager(  350): mDisplayId=0 mSession=Session{b36cbce0 1156:u0a10052} mClient=android.os.BinderProxy@b2fb5f88
+W/WindowManager(  350): mOwnerUid=10052 mShowToOwnerOnly=true package=cn.hongxiu.singlebook89957 appop=NONE
+W/WindowManager(  350): mAttrs=WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#40010100 pfl=0x8 wanim=0x1030001}
+W/WindowManager(  350): Requested w=480 h=864 mLayoutSeq=59
+W/WindowManager(  350): mBaseLayer=21000 mSubLayer=0 mAnimLayer=21005+0=21005 mLastLayer=21015
+W/WindowManager(  350): mToken=AppWindowToken{b2fded48 token=Token{b2fff5e0 ActivityRecord{b2f79408 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen t4}}}
+W/WindowManager(  350): mRootToken=AppWindowToken{b2fded48 token=Token{b2fff5e0 ActivityRecord{b2f79408 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen t4}}}
+W/WindowManager(  350): mAppToken=AppWindowToken{b2fded48 token=Token{b2fff5e0 ActivityRecord{b2f79408 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen t4}}}
+W/WindowManager(  350): mViewVisibility=0x0 mHaveFrame=true mObscured=false
+W/WindowManager(  350): mSeq=0 mSystemUiVisibility=0x0
+W/WindowManager(  350): mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+W/WindowManager(  350): mConfiguration={1.0 310mcc260mnc en_US ldltr sw480dp w480dp h839dp 160dpi lrg long port finger -keyb/v/h tball/v s.6}
+W/WindowManager(  350): mHasSurface=true mShownFrame=[0.0,0.0][480.0,864.0] isReadyForDisplay()=false
+W/WindowManager(  350): mFrame=[0,0][480,864] last=[0,0][480,864]
+W/WindowManager(  350): mSystemDecorRect=[0,25][480,864] last=[0,25][480,864]
+W/WindowManager(  350): Frames: containing=[0,0][480,864] parent=[0,0][480,864]
+W/WindowManager(  350):     display=[0,0][480,864] overscan=[0,0][480,864]
+W/WindowManager(  350):     content=[0,25][480,864] visible=[0,25][480,864]
+W/WindowManager(  350):     decor=[0,25][480,864]
+W/WindowManager(  350): Cur insets: overscan=[0,0][0,0] content=[0,25][0,0] visible=[0,25][0,0]
+W/WindowManager(  350): Lst insets: overscan=[0,0][0,0] content=[0,25][0,0] visible=[0,25][0,0]
+W/WindowManager(  350): WindowStateAnimator{b2fe0e78 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen}:
+W/WindowManager(  350):   mSurface=Surface(name=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen)
+W/WindowManager(  350):   mDrawState=HAS_DRAWN mLastHidden=true
+W/WindowManager(  350):   Surface: shown=false layer=21015 alpha=0.0 rect=(0.0,0.0) 480.0 x 864.0
+W/WindowManager(  350):   mShownAlpha=1.0 mAlpha=1.0 mLastAlpha=0.0
+W/WindowManager(  350): Current app token list:
+V/WindowManager(  350):   Display 0
+V/WindowManager(  350):   #3: Token{b3164530 ActivityRecord{b2fd5ae0 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookMark t4}}
+V/WindowManager(  350):   #2: Token{b2dd96e0 ActivityRecord{b2f4b760 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityLocalBookViewer t4}}
+V/WindowManager(  350):   #1: Token{b2e10ae0 ActivityRecord{b2f75ee0 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen t4}}
+V/WindowManager(  350):   #0: Token{b304e5a0 ActivityRecord{b2fc3560 u0 com.android.launcher/com.android.launcher2.Launcher t3}}
+W/WindowManager(  350): Final window list:
+V/WindowManager(  350):   #0: Window{b2fc9388 u0 StatusBar}
+V/WindowManager(  350):   #1: Window{b3003590 u0 KeyguardScrim}
+V/WindowManager(  350):   #2: Window{b2df3b08 u0 Application Error: cn.hongxiu.singlebook89957}
+V/WindowManager(  350):   #3: Window{b2f73cf0 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityMainScreen}
+V/WindowManager(  350):   #4: Window{b312b390 u0 com.android.launcher/com.android.launcher2.Launcher}
+V/WindowManager(  350):   #5: Window{b36d8518 u0 com.android.systemui.ImageWallpaper}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1239): Shutting down VM
+D/dalvikvm( 1239): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+1ms, total 13ms
+D/AndroidRuntime( 1249): 
+D/AndroidRuntime( 1249): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1249): CheckJNI is ON
+D/dalvikvm( 1249): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1249): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1249): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1249): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1249): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1249): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1249): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1249): failed to load memtrack module: -2
+D/AndroidRuntime( 1249): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookOption} from pid 1249
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2fd5ae0 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookMark t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1249): Shutting down VM
+D/dalvikvm( 1249): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+2ms, total 14ms
+D/AndroidRuntime( 1259): 
+D/AndroidRuntime( 1259): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1259): CheckJNI is ON
+D/dalvikvm( 1259): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1259): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1259): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1259): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1259): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1259): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1259): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1259): failed to load memtrack module: -2
+D/AndroidRuntime( 1259): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityLogin} from pid 1259
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2e20c18 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookOption t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1259): Shutting down VM
+D/dalvikvm( 1259): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+2ms, total 13ms
+D/AndroidRuntime( 1269): 
+D/AndroidRuntime( 1269): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1269): CheckJNI is ON
+D/dalvikvm( 1269): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1269): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1269): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1269): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1269): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1269): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1269): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1269): failed to load memtrack module: -2
+D/AndroidRuntime( 1269): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityReg} from pid 1269
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2df2608 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityLogin t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1269): Shutting down VM
+D/dalvikvm( 1269): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+1ms, total 22ms
+D/AndroidRuntime( 1279): 
+D/AndroidRuntime( 1279): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1279): CheckJNI is ON
+D/dalvikvm( 1279): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1279): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1279): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1279): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1279): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1279): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1279): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1279): failed to load memtrack module: -2
+D/AndroidRuntime( 1279): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityWebURL} from pid 1279
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b36c98d8 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityReg t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1279): Shutting down VM
+D/dalvikvm( 1279): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+2ms, total 12ms
+D/AndroidRuntime( 1289): 
+D/AndroidRuntime( 1289): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1289): CheckJNI is ON
+D/dalvikvm( 1289): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1289): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1289): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1289): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1289): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1289): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1289): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1289): failed to load memtrack module: -2
+D/AndroidRuntime( 1289): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityCategory} from pid 1289
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2f807c0 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityWebURL t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1289): Shutting down VM
+D/dalvikvm( 1289): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+3ms, total 13ms
+D/AndroidRuntime( 1299): 
+D/AndroidRuntime( 1299): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1299): CheckJNI is ON
+D/dalvikvm( 1299): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1299): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1299): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1299): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1299): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1299): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1299): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1299): failed to load memtrack module: -2
+D/AndroidRuntime( 1299): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookList} from pid 1299
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2f43b58 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityCategory t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1299): Shutting down VM
+D/dalvikvm( 1299): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+1ms, total 21ms
+D/AndroidRuntime( 1309): 
+D/AndroidRuntime( 1309): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1309): CheckJNI is ON
+D/dalvikvm( 1309): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1309): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1309): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1309): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1309): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1309): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1309): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1309): failed to load memtrack module: -2
+D/AndroidRuntime( 1309): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityRandWeek} from pid 1309
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b36c5c90 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookList t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1309): Shutting down VM
+D/dalvikvm( 1309): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+2ms, total 12ms
+D/AndroidRuntime( 1323): 
+D/AndroidRuntime( 1323): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1323): CheckJNI is ON
+D/dalvikvm( 1323): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1323): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1323): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1323): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1323): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1323): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1323): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1323): failed to load memtrack module: -2
+D/AndroidRuntime( 1323): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityRecommend} from pid 1323
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b316d740 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityRandWeek t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1323): Shutting down VM
+D/dalvikvm( 1323): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+2ms, total 13ms
+D/AndroidRuntime( 1333): 
+D/AndroidRuntime( 1333): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1333): CheckJNI is ON
+D/dalvikvm( 1333): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1333): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1333): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1333): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1333): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1333): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1333): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1333): failed to load memtrack module: -2
+D/AndroidRuntime( 1333): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookIntroduce} from pid 1333
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2e08518 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityRecommend t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1333): Shutting down VM
+D/dalvikvm( 1333): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 1ms+1ms, total 7ms
+D/AndroidRuntime( 1343): 
+D/AndroidRuntime( 1343): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1343): CheckJNI is ON
+D/dalvikvm( 1343): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1343): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1343): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1343): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1343): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1343): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1343): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1343): failed to load memtrack module: -2
+D/AndroidRuntime( 1343): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityReadLately} from pid 1343
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2f83b30 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityBookIntroduce t4}
+W/ActivityManager(  350): Launch timeout has expired, giving up wake lock!
+D/AndroidRuntime( 1343): Shutting down VM
+D/dalvikvm( 1343): GC_CONCURRENT freed 98K, 15% free 589K/692K, paused 2ms+2ms, total 22ms
+D/AndroidRuntime( 1353): 
+D/AndroidRuntime( 1353): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+D/AndroidRuntime( 1353): CheckJNI is ON
+D/dalvikvm( 1353): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1353): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1353): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1353): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1353): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1353): Note: class Landroid/app/ActivityManagerNative; has 179 unimplemented (abstract) methods
+E/memtrack( 1353): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1353): failed to load memtrack module: -2
+D/AndroidRuntime( 1353): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  350): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.booklist.TabBookList} from pid 1353
+W/ActivityManager(  350): Activity pause timeout for ActivityRecord{b2e12e08 u0 cn.hongxiu.singlebook89957/cn.hongxiu.book.ui.frame.ActivityReadLately t4}
